@@ -1,7 +1,7 @@
 export default function WhoWeAre() {
   return (
     <section className="px-4 bg-[#FAFAFA] pb-28 ">
-      <div className="text-center flex flex-col sm:flex-row  gap-12 items-center">
+      <div className="text-center flex flex-col sm:flex-row  gap-12 items-center max-w-[12c00px] mx-auto">
         {/* Left Section */}
         <div className="text-center sm:text-right sm:w-1/2">
           <h2 className="text-gray-500 uppercase text-sm font-medium mb-4 ">Who We Are</h2>
@@ -10,7 +10,7 @@ export default function WhoWeAre() {
             <br />
             AI Team - On Demand
           </h3>
-          <p className="text-gray-600 mb-12 max-w-2xl mx-auto sm:mx-0">
+          <p className="text-gray-600 mb-12  text-right mx-auto sm:mx-0">
             We are a small team of AI developers. Our founder, Arsenii, is leading one of the most popular AI Agent
             Development Frameworks called Agency Swarm.
           </p>
