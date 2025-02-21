@@ -1,7 +1,7 @@
 export default function WhoWeAre() {
   return (
     <section className="px-4 bg-[#FAFAFA] pb-28 ">
-      <div className="text-center flex flex-col sm:flex-row  gap-12 items-center max-w-[12c00px] mx-auto">
+      <div className="text-center flex flex-col sm:flex-row  gap-12 items-center max-w-[1200px] mx-auto">
         {/* Left Section */}
         <div className="text-center sm:text-right sm:w-1/2">
           <h2 className="text-gray-500 uppercase text-sm font-medium mb-4 ">Who We Are</h2>
