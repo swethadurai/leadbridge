@@ -20,13 +20,13 @@ const Navbar = () => {
             </Link>
           </div>
           
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center space-x-10">
             <Link to="/" className="text-gray-700 hover:text-primary transition-colors">Home</Link>
             <Link to="/about" className="text-gray-700 hover:text-primary transition-colors">About Us</Link>
             <Link to="/pricing" className="text-gray-700 hover:text-primary transition-colors">Pricing</Link>
             <Link to="/services" className="text-gray-700 hover:text-primary transition-colors">Services</Link>
             <Link to="/contact" className="text-gray-700 hover:text-primary transition-colors">Contact Us</Link>
-            <button className="bg-primary text-white px-6 py-2 rounded-3xl hover:bg-primary-hover transition-colors">
+            <button className="bg-primary text-white px-6 py-2 rounded-3xl hover:bg-primary-hover transition-colors ">
               GET STARTED
             </button>
           </div>

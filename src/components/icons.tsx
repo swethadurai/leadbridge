@@ -31,7 +31,7 @@ function Icons() {
   return (
     <div className="py-20 bg-[#F4EEEA] ">
       <div className="max-w-7xl mx-auto px-4">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-medium text-gray-800 max-w-3xl mb-20">
+        <h1 className="text-5xl md:text-5xl lg:text-5xl font-normal text-gray-800 max-w-3xl mb-20">
           We help businesses from starting out to growing bigger
         </h1>
         

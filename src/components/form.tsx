@@ -106,7 +106,7 @@ function Form() {
           <div className="pt-4">
             <button
               type="submit"
-              className="w-full bg-teal-600 text-white py-4 px-8 rounded-full hover:bg-teal-700 transition-colors text-lg font-medium"
+              className="w-full bg-[#0D7377] text-white py-4 px-8 rounded-full hover:bg-[#0D7377] transition-colors text-lg font-medium"
             >
               SUBMIT
             </button>

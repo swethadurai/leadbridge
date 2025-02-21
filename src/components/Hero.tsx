@@ -5,10 +5,10 @@ const Hero = () => {
   return (
     <div className="min-h-screen pt-20 bg-gradient-to-br  relative overflow-hidden">
       {/* Top left gradient */}
-      <div className="absolute -top-0 -left-40 w-80 h-80 bg-gradient-to-br from-primary/30 to-secondary/30 rounded-full blur-3xl" />
+      <div className="absolute -top-0 -left-40 w-80 h-80 bg-gradient-to-br from-primary/10 to-secondary/30 rounded-full blur-3xl" />
       
       {/* Bottom right gradient */}
-      <div className="absolute bottom-20 -right-0 w-80 h-80 bg-gradient-to-br from-secondary/30 to-primary/30 rounded-full blur-3xl" />
+      <div className="absolute bottom-20 -right-0 w-80 h-80 bg-gradient-to-br from-secondary/30 to-primary/10 rounded-full blur-3xl" />
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-16 pb-24 relative z-10">
         <div className="text-center space-y-8">

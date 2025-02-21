@@ -17,14 +17,14 @@ const BenefitCard = ({ icon, title, description }: BenefitCardProps) => (
     initial={{ opacity: 0, y: 20 }}
     whileInView={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.5 }}
-    className="text-center h-[400px] rounded-2xl p-8 shadow-sm hover:shadow-xl transition-shadow duration-300 bg-gradient-to-bl from-[#FE701A]/15 to-transparent border border-gray-200 "
+    className="text-center h-[500px] rounded-2xl p-8 shadow-sm hover:shadow-xl transition-shadow duration-300 bg-gradient-to-bl from-[#FE701A]/10 to-transparent border border-gray-200 "
   >
-    <div className="text-[#ff4d00] mb-6 m-auto">
+    <div className="text-[#ff4d00] mb-6 mx-auto mt-8">
       {icon}
     </div>
-    <h3 className="text-xl font-semibold text-gray-800 mb-4 pt-5">{title}</h3>
-    <p className="text-gray-600 mb-6 leading-relaxed pt-5">{description}</p>
-    <div className="text-[#ff4d00] pt-5 ">
+    <h3 className="text-xl font-semibold text-gray-500 mb-4 pt-6">{title}</h3>
+    <p className="text-gray-500 mb-6 leading-relaxed pt-6">{description}</p>
+    <div className="text-[#0D7377] pt-6 ">
       <ArrowRight className="w-5 h-5 m-auto" />
     </div>
   </motion.div>
@@ -64,7 +64,7 @@ export const BenefitsSection = () => {
           className="mb-16"
         >
           <h2 className="text-emerald-600 font-semibold mb-4">OUR BENEFITS</h2>
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+          <h1 className="text-4xl md:text-5xl font-normal text-gray-900 mb-6">
             Automate Roles, Not Just Tasks
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl">
