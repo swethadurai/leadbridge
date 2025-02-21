@@ -17,7 +17,7 @@ export default function WhoWeAre() {
         </div>
 
         {/* Right Section */}
-        <div className="space-y-12 sm:w-1/2">
+        <div className="space-y-12 sm:w-1/2 max-w-[756px] w-full mx-auto">
           {/* First Stat */}
           <div className="flex flex-wrap sm:flex-nowrap flex-col md:flex-row items-center justify-center gap-8">
             <div className="text-center w-40">
