@@ -49,7 +49,7 @@ export const AgentServiceSection = () => {
             {/* <h2 className="text-lg font-semibold text-[#ff4d00] mb-4">
               AGENCY SWARM FRAMEWORK
             </h2> */}
-            <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
+            <h1 className="text-4xl md:text-5xl font-normal mb-6 text-gray-900">
             Agents-as-a-Service            </h1>
             <p className="text-gray-600 text-lg mb-8 leading-relaxed">
             We specialise in developing AI-driven agents that automate tasks, enhance customer experiences, and optimise business operations. Our solutions leverage advanced machine learning, natural language processing, and intelligent automation to deliver real value. Whether you're a small business or a large enterprise, our AI solutions help you stay ahead in the competitive UK market.            </p>
@@ -66,7 +66,7 @@ export const AgentServiceSection = () => {
                 key={index}
                 className="flex items-center space-x-4"
               >
-                <div className="flex-shrink-0 w-6 h-6 rounded-lg bg-teal-100 border border-emerald-700 flex items-center justify-center">
+                <div className="flex-shrink-0 w-6 h-6 rounded-lg  border border-emerald-700 flex items-center justify-center">
                   <Check className="w-4 h-4 text-[#0D7377]" />
                 </div>
                 <span className="text-gray-700 text-lg">{benefit}</span>
