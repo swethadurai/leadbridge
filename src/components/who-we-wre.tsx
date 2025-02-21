@@ -1,0 +1,68 @@
+export default function WhoWeAre() {
+    return (
+      <section className=" px-4 bg-[#FAFAFA] pb-28">
+        <div className=" text-center flex gap-12 items-center">
+        <div className="text-right">
+          <h2 className="text-gray-500 uppercase text-sm font-medium mb-4">Who We Are</h2>
+ 
+  <h3 className="text-4xl md:text-5xl font-normal text-gray-800 mb-6">
+            Your Dedicated
+            <br />
+            AI Team - On Demand
+          </h3>
+  
+          <p className="text-gray-600 mb-12 max-w-2xl mx-auto">
+            We are a small team of AI developers. Our founder, Arsenii, is leading one of the most popular AI Agent
+            Development Frameworks called Agency Swarm.
+          </p>
+  
+  </div>
+        
+          <div className="space-y-12">
+            <div className="flex flex-col md:flex-row items-center justify-center gap-8">
+              <div className="flex-2 text-center md:text-center  w-40">
+                <div className="text-[#FF6B2C] text-5xl font-bold">
+                  10k<span className="text-3xl align-top text-[#0d7a76]  text-light">+</span>
+                </div>
+                <div className="text-gray-500 uppercase text-sm mt-2 text-center">AI Agents <br></br>Deployed</div>
+              </div>
+              <div className="border-r border-r-slate-300 h-28"></div>
+              <div className="flex-1 text-center md:text-left">
+                <p className="text-gray-600 ">We saved thousands of employee hours.</p>
+              </div>
+            </div>
+  
+            <div className="flex flex-col md:flex-row items-center justify-center gap-8">
+              <div className="flex-2 text-center md:text-center  w-40">
+                <div className="text-[#FF6B2C] text-5xl font-bold">
+                  50<span className="text-3xl align-top text-[#0d7a76]  text-normal">+</span>
+                </div>
+                <div className="text-gray-500 uppercase text-sm mt-2 text-center">Businesses <br></br>Transformed</div>
+              </div>
+              <div className="border-r border-r-slate-300 h-28"></div>
+
+              <div className="flex-1 text-center md:text-left">
+                <p className="text-gray-600">We work with businesses of all sizes.</p>
+              </div>
+            </div>
+  
+            <div className="flex flex-col md:flex-row items-center justify-center gap-8">
+              <div className="flex-2 text-center md:text-right  w-40">
+                <div className="text-[#FF6B2C] text-5xl font-bold">
+                  2.5k<span className="text-3xl align-top text-[#0d7a76] text-normal">+</span>
+                </div>
+                <div className="text-gray-500 uppercase text-sm mt-2 text-center ">Hours Saved<br></br> Per Client</div>
+              </div>
+              <div className="border-r border-r-slate-300 h-28"></div>
+
+              <div className="flex-1 text-center md:text-left">
+                <p className="text-gray-600">We only use our own framework.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    )
+  }
+  
+  
