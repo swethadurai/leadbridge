@@ -99,3 +99,20 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+@layer base {
+  :root {
+    --font-sarabun: 'Sarabun', sans-serif;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sarabun;
+  }
+}
+
+@layer utilities {
+  .font-sarabun {
+    font-family: 'Sarabun', sans-serif;
+  }
+}

@@ -9,24 +9,24 @@ const Navbar = () => {
   return (
     <nav className="fixed w-full bg-white/80 backdrop-blur-md z-50 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-20">
+        <div className="flex items-center justify-between h-24">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
               <img 
                 src={logo}
                 alt="LeadBridge Logo" 
-                className="h-8 w-auto"
+                className=" w-[250px]"
               />
             </Link>
           </div>
           
           <div className="hidden md:flex items-center space-x-10">
-            <Link to="/" className="text-gray-700 hover:text-primary transition-colors">Home</Link>
-            <Link to="/about" className="text-gray-700 hover:text-primary transition-colors">About Us</Link>
-            <Link to="/pricing" className="text-gray-700 hover:text-primary transition-colors">Pricing</Link>
-            <Link to="/services" className="text-gray-700 hover:text-primary transition-colors">Services</Link>
-            <Link to="/contact" className="text-gray-700 hover:text-primary transition-colors">Contact Us</Link>
-            <button className="bg-primary text-white px-6 py-2 rounded-3xl hover:bg-primary-hover transition-colors ">
+            <Link to="/" className="text-lg text-gray-800 hover:text-primary transition-colors">Home</Link>
+            <Link to="/about" className="text-lg text-gray-800 hover:text-primary transition-colors">About Us</Link>
+            <Link to="/pricing" className=" text-lg text-gray-800 hover:text-primary transition-colors">Pricing</Link>
+            <Link to="/services" className="text-lg text-gray-800 hover:text-primary transition-colors">Services</Link>
+            <Link to="/contact" className="text-lg text-gray-800 hover:text-primary transition-colors">Contact Us</Link>
+            <button className="bg-primary font-thin text-white px-16 py-3 rounded-full hover:bg-primary-hover transition-colors !ml-24">
               GET STARTED
             </button>
           </div>
