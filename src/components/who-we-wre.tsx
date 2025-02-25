@@ -26,7 +26,7 @@ export default function WhoWeAre() {
               </div>
               <div className="text-gray-500 uppercase text-sm mt-2">AI Agents <br /> Deployed</div>
             </div>
-            <div className="hidden md:block border-r border-r-slate-300 h-28"></div>
+            <div className="hidden md:block border-r border-dashed border-r-slate-300 h-28"></div>
             <div className="flex-1 text-center md:text-left">
               <p className="text-gray-600">We saved thousands of employee hours.</p>
             </div>
@@ -40,7 +40,7 @@ export default function WhoWeAre() {
               </div>
               <div className="text-gray-500 uppercase text-sm mt-2">Businesses <br /> Transformed</div>
             </div>
-            <div className="hidden md:block border-r border-r-slate-300 h-28"></div>
+            <div className="hidden md:block border-r border-dashed border-r-slate-300 h-28"></div>
             <div className="flex-1 text-center md:text-left">
               <p className="text-gray-600">We work with businesses of all sizes.</p>
             </div>
@@ -54,7 +54,7 @@ export default function WhoWeAre() {
               </div>
               <div className="text-gray-500 uppercase text-sm mt-2">Hours Saved<br /> Per Client</div>
             </div>
-            <div className="hidden md:block border-r border-r-slate-300 h-28"></div>
+            <div className="hidden md:block border-r border-dashed border-r-slate-300 h-28"></div>
             <div className="flex-1 text-center md:text-left">
               <p className="text-gray-600">We only use our own framework.</p>
             </div>

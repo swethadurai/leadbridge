@@ -24,7 +24,7 @@ const PricingPlan = ({ title, icon, price, features, buttonText, isHighlighted }
     initial={{ opacity: 0, y: 20 }}
     whileInView={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.5 }}
-    className={`rounded-3xl p-8 ${isHighlighted ? 'bg-teal-700 text-white' : 'bg-white'} bg-gradient-to-bl from-[#FE701A]/15 to-transparent border border-gray-200`}
+    className={`rounded-3xl p-8 ${isHighlighted ? 'bg-[#0D7377] text-white' : 'bg-white'} bg-gradient-to-bl from-[#FE701A]/15 to-transparent border border-gray-200`}
   >
     <div className="text-center mb-8">
       <h3 className={`text-sm font-semibold mb-6 ${isHighlighted ? 'text-white' : 'text-teal-600'}`}>

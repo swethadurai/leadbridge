@@ -19,13 +19,13 @@ const ProcessStep = ({ stepNumber, title, description, isLeft }: ProcessStepProp
       transition={{ duration: 0.5 }}
       className={`w-[45%] p-2 top-0  -mt-10 ${isLeft ? "text-right" : "text-left"}`}
     >
-      <span className="text-[#ff4d00] text-sm font-semibold -mt-8 ">STEP {stepNumber}</span>
+      <span className="text-[#FE701A] text-sm font-semibold -mt-10 ">STEP {stepNumber}</span>
       <h3 className="text-2xl font-bold text-teal-600 mb-2 ">{title}</h3>
       <p className="text-gray-600 mb-7">{description}</p>
     </motion.div>
 
     {/* Step Indicator */}
-    <div className="absolute left-1/2 transform -translate-x-1/2 w-3 h-3 rounded-full bg-[#ff4d00] -top-8"></div>
+    <div className="absolute left-1/2 transform -translate-x-1/2 w-3 h-3 rounded-full bg-[#FE701A] -top-8"></div>
   </div>
 );
 

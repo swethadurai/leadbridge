@@ -77,8 +77,8 @@ function Footer() {
               © 2025 Leadbridge.co.uk - Professional website for your Business. All Rights Reserved.
             </p>
             <div className="flex gap-6">
-              <a href="#" className="text-gray-600 hover:text-gray-900 text-sm">Privacy Policy</a>
-              <a href="#" className="text-gray-600 hover:text-gray-900 text-sm">Terms of Service</a>
+              <a href="#" className="text-gray-600 hover:text-gray-900 text-sm underline">Privacy Policy</a>
+              {/* <a href="#" className="text-gray-600 hover:text-gray-900 text-sm">Terms of Service</a> */}
             </div>
           </div>
         </div>

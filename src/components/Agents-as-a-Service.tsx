@@ -27,7 +27,9 @@ export const AgentServiceSection = () => {
   ];
 
   return (
+    
     <div className=" mx-auto px-4  md:py-24 bg-[#FAFAFA]">
+
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center max-w-[1400px] mx-auto">
         <div className="relative order-2 lg:order-1">
           <motion.img
@@ -51,7 +53,7 @@ export const AgentServiceSection = () => {
             </h2> */}
             <h1 className="text-4xl md:text-5xl font-normal mb-6 text-gray-900">
             Agents-as-a-Service            </h1>
-            <p className="text-gray-600 text-lg mb-8 leading-relaxed">
+            <p className="text-gray-600 text-lg mb-8 leading-relaxed mt-8">
             We specialise in developing AI-driven agents that automate tasks, enhance customer experiences, and optimise business operations. Our solutions leverage advanced machine learning, natural language processing, and intelligent automation to deliver real value. Whether you're a small business or a large enterprise, our AI solutions help you stay ahead in the competitive UK market.            </p>
           </motion.div>
 
@@ -66,7 +68,7 @@ export const AgentServiceSection = () => {
                 key={index}
                 className="flex items-center space-x-4"
               >
-                <div className="flex-shrink-0 w-6 h-6 rounded-lg  border border-emerald-700 flex items-center justify-center">
+                <div className="flex-shrink-0 w-6 h-6   border border-emerald-700 flex items-center justify-center">
                   <Check className="w-4 h-4 text-[#0D7377]" />
                 </div>
                 <span className="text-gray-700 text-lg">{benefit}</span>
