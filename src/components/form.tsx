@@ -103,10 +103,10 @@ function Form() {
             />
           </div>
 
-          <div className="pt-4">
+          <div className="pt-4 flex items-center justify-center">
             <button
               type="submit"
-              className="w-full bg-[#0D7377] text-white py-4 px-8 rounded-full hover:bg-[#0D7377] transition-colors text-lg font-medium"
+              className=" bg-[#0D7377] text-white py-4 px-16 rounded-full hover:bg-[#0D7377] transition-colors text-lg font-thin"
             >
               SUBMIT
             </button>
