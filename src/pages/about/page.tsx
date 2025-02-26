@@ -2,7 +2,7 @@ import React from 'react';
 import { Users, Target, Lightbulb, Award, Rocket, Code, Globe, Shield, Heart } from 'lucide-react';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/footer';
-import AboutBanner from '@/components/about-banner';
+// import AboutBanner from '@/components/about-banner';
 
 const About = () => {
   const teamMembers = [
@@ -29,7 +29,7 @@ const About = () => {
   return (
     <div className="bg-white">
        <Navbar />
-       <AboutBanner/>
+       {/* <AboutBanner/> */}
       
 
       {/* Story Section */}
