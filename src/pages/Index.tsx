@@ -15,6 +15,7 @@ import WhoWeAre from '@/components/who-we-wre';
 const Index = () => {
   return (
     <div className="min-h-screen bg-white">
+      <p>leadbridge</p>
       <Navbar />
       <Hero />
       <AgentServiceSection/>
