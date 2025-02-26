@@ -13,7 +13,7 @@ function AboutStory() {
         <motion.div
           initial={{ opacity: 0, x: -50 }}
           animate={{ opacity: 1, x: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
+          transition={{ duration: 1, delay: 1 }}
         >
           <h2 className="text-[#0D7377] font-semibold mb-4">OUR STORY</h2>
           <h2 className="text-3xl font-bold text-gray-900 mb-6">About Us</h2>
