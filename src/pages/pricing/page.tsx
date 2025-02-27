@@ -1,14 +1,11 @@
 "use client"
 
-import { useState } from "react"
-import { Check, X, ChevronDown, ChevronUp } from "lucide-react"
-import { Link } from "react-router-dom"
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/footer"
 import PriceDetails from "@/components/pricing/pricing-details"
 import PriceCompare from "@/components/pricing/comparision"
 import Testimonial from "@/components/pricing/testimonails"
-import Faq from "@/components/pricing/faq"
+import Faq from "@/components/faq"
 import Cta from "@/components/pricing/cts"
 const Pricing = () => {
   
@@ -20,6 +17,7 @@ const Pricing = () => {
       <PriceDetails/>
       <PriceCompare/>
       <Faq/>
+      <Testimonial/>
       <Cta/>
       </div>
       <Footer />
