@@ -244,7 +244,6 @@ function Form() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
           /> */}
-          <img src={foormimg}> </img>
           <motion.div 
             className="bg-white p-6 rounded-lg shadow-lg -mt-20 ml-10 mr-10 relative z-10 border border-gray-100"
             initial={{ opacity: 0, y: 20 }}
