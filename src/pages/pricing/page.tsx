@@ -16,7 +16,7 @@ const Pricing = () => {
    
       <PriceDetails/>
       <PriceCompare/>
-      <Faq/>
+      <Faq />
       <Testimonial/>
       <Cta/>
       

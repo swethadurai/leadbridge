@@ -1,111 +1,92 @@
+import { motion } from "framer-motion";
 import {
-    Bot,
-    MessageSquare,
-    BarChart,
-    Shield,
-    Zap,
-    Users,
-    ArrowRight,
-    Check,
-    ChevronDown,
-    ChevronUp,
-    Code,
-    Layers,
-    Briefcase,
-    Building,
-    Building2,
-    Landmark,
-    Smartphone,
-    Globe,
-  } from "lucide-react"
+  Bot,
+  MessageSquare,
+  BarChart,
+  Shield,
+  Zap,
+  Users
+} from "lucide-react";
+
+const servicesData = [
+  {
+    icon: Bot,
+    title: "AI Chatbots",
+    description: "24/7 customer support with intelligent chatbots that understand context and provide relevant responses.",
+    features: ["Natural Language Processing", "Multi-language Support", "Custom Training"],
+  },
+  {
+    icon: MessageSquare,
+    title: "Customer Service Automation",
+    description: "Streamline customer interactions with intelligent automation that handles routine inquiries.",
+    features: ["Ticket Management", "Auto-responses", "Priority Routing"],
+  },
+  {
+    icon: BarChart,
+    title: "Analytics & Insights",
+    description: "Turn data into actionable insights with our advanced analytics platform.",
+    features: ["Real-time Reporting", "Predictive Analytics", "Custom Dashboards"],
+  },
+  {
+    icon: Shield,
+    title: "Security & Compliance",
+    description: "Enterprise-grade security measures to protect your data and ensure compliance.",
+    features: ["Data Encryption", "GDPR Compliance", "Regular Audits"],
+  },
+  {
+    icon: Zap,
+    title: "Process Automation",
+    description: "Automate repetitive tasks and workflows to increase efficiency.",
+    features: ["Workflow Optimization", "Integration Support", "Custom Solutions"],
+  },
+  {
+    icon: Users,
+    title: "Training & Support",
+    description: "Comprehensive training and support to help you maximize your AI investment.",
+    features: ["Onboarding Support", "Technical Training", "24/7 Assistance"],
+  },
+];
+
 function OurServices() {
-    return (
-        <div>
-             <div className="text-center mb-16">
-          <h1 className="text-4xl font-bold text-gray-900 mb-6">Our Services</h1>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Comprehensive AI solutions designed to transform your business operations and drive growth.
-          </p>
-        </div>
+  return (
+    <div>
+      <div className="text-center mb-16">
+        <h1 className="text-4xl font-bold text-gray-900 mb-6">Our Services</h1>
+        <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          Comprehensive AI solutions designed to transform your business operations and drive growth.
+        </p>
+      </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-            <Bot className="w-12 h-12 text-[#FF6B2C] mb-6" />
-            <h3 className="text-xl font-semibold mb-4">AI Chatbots</h3>
-            <p className="text-gray-600 mb-4">
-              24/7 customer support with intelligent chatbots that understand context and provide relevant responses.
-            </p>
-            <ul className="text-gray-600 space-y-2">
-              <li>• Natural Language Processing</li>
-              <li>• Multi-language Support</li>
-              <li>• Custom Training</li>
-            </ul>
-          </div>
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {servicesData.map((service, index) => {
+          const Icon = service.icon;
+          return (
+            <motion.div
+              key={index}
+              className="relative group perspective"
+              whileHover={{ scale: 1.05 }}
+            >
+              <motion.div
+                className="relative w-full h-full bg-white p-8 rounded-xl shadow-lg border border-gray-100 transition-all duration-300 group-hover:bg-gray-100"
+                initial={{ opacity: 0, y: 50 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.5, delay: index * 0.1 }}
+              >
+                <Icon className="w-12 h-12 text-[#FF6B2C] mb-6" strokeWidth={1.5} />
+                <h3 className="text-xl font-semibold mb-4">{service.title}</h3>
+                <p className="text-gray-600 mb-4">{service.description}</p>
+                <ul className="text-gray-600 space-y-2">
+                  {service.features.map((feature, i) => (
+                    <li key={i}>• {feature}</li>
+                  ))}
+                </ul>
+              </motion.div>
+            </motion.div>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
 
-          <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-            <MessageSquare className="w-12 h-12 text-[#FF6B2C] mb-6" />
-            <h3 className="text-xl font-semibold mb-4">Customer Service Automation</h3>
-            <p className="text-gray-600 mb-4">
-              Streamline customer interactions with intelligent automation that handles routine inquiries.
-            </p>
-            <ul className="text-gray-600 space-y-2">
-              <li>• Ticket Management</li>
-              <li>• Auto-responses</li>
-              <li>• Priority Routing</li>
-            </ul>
-          </div>
-
-          <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-            <BarChart className="w-12 h-12 text-[#FF6B2C] mb-6" />
-            <h3 className="text-xl font-semibold mb-4">Analytics & Insights</h3>
-            <p className="text-gray-600 mb-4">
-              Turn data into actionable insights with our advanced analytics platform.
-            </p>
-            <ul className="text-gray-600 space-y-2">
-              <li>• Real-time Reporting</li>
-              <li>• Predictive Analytics</li>
-              <li>• Custom Dashboards</li>
-            </ul>
-          </div>
-
-          <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-            <Shield className="w-12 h-12 text-[#FF6B2C] mb-6" />
-            <h3 className="text-xl font-semibold mb-4">Security & Compliance</h3>
-            <p className="text-gray-600 mb-4">
-              Enterprise-grade security measures to protect your data and ensure compliance.
-            </p>
-            <ul className="text-gray-600 space-y-2">
-              <li>• Data Encryption</li>
-              <li>• GDPR Compliance</li>
-              <li>• Regular Audits</li>
-            </ul>
-          </div>
-
-          <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-            <Zap className="w-12 h-12 text-[#FF6B2C] mb-6" />
-            <h3 className="text-xl font-semibold mb-4">Process Automation</h3>
-            <p className="text-gray-600 mb-4">Automate repetitive tasks and workflows to increase efficiency.</p>
-            <ul className="text-gray-600 space-y-2">
-              <li>• Workflow Optimization</li>
-              <li>• Integration Support</li>
-              <li>• Custom Solutions</li>
-            </ul>
-          </div>
-
-          <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
-            <Users className="w-12 h-12 text-[#FF6B2C] mb-6" />
-            <h3 className="text-xl font-semibold mb-4">Training & Support</h3>
-            <p className="text-gray-600 mb-4">
-              Comprehensive training and support to help you maximize your AI investment.
-            </p>
-            <ul className="text-gray-600 space-y-2">
-              <li>• Onboarding Support</li>
-              <li>• Technical Training</li>
-              <li>• 24/7 Assistance</li>
-            </ul>
-          </div>
-        </div>
-        </div>
-    )}
-
-    export default OurServices;
+export default OurServices;

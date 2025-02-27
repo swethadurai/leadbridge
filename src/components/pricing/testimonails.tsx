@@ -30,7 +30,7 @@ function Testimonial() {
       ]
     return(
         <div>
-             <div className="mt-24">
+             <div className=" max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 pt-32">
           <h2 className="text-3xl font-bold text-center mb-12">What Our Customers Say</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {testimonials.map((testimonial, index) => (

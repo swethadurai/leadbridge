@@ -23,14 +23,14 @@ import {
 function Solution() {
 
   const industryIcons = {
-    "Retail & E-commerce": <Smartphone className="w-8 h-8 text-[#FF6B2C]" />,
-    "Financial Services": <Landmark className="w-8 h-8 text-[#FF6B2C]" />,
-    Healthcare: <Building className="w-8 h-8 text-[#FF6B2C]" />,
-    Manufacturing: <Layers className="w-8 h-8 text-[#FF6B2C]" />,
-    Technology: <Code className="w-8 h-8 text-[#FF6B2C]" />,
-    "Professional Services": <Briefcase className="w-8 h-8 text-[#FF6B2C]" />,
-    Government: <Building2 className="w-8 h-8 text-[#FF6B2C]" />,
-    "Global Enterprises": <Globe className="w-8 h-8 text-[#FF6B2C]" />,
+    "Retail & E-commerce": <Smartphone className="w-8 h-8 text-[#FF6B2C]" strokeWidth={1} />,
+    "Financial Services": <Landmark className="w-8 h-8 text-[#FF6B2C]" strokeWidth={1} />,
+    Healthcare: <Building className="w-8 h-8 text-[#FF6B2C]" strokeWidth={1} />,
+    Manufacturing: <Layers className="w-8 h-8 text-[#FF6B2C]" strokeWidth={1}/>,
+    Technology: <Code className="w-8 h-8 text-[#FF6B2C]" strokeWidth={1} />,
+    "Professional Services": <Briefcase className="w-8 h-8 text-[#FF6B2C]" strokeWidth={1} />,
+    Government: <Building2 className="w-8 h-8 text-[#FF6B2C]" strokeWidth={1}/>,
+    "Global Enterprises": <Globe className="w-8 h-8 text-[#FF6B2C]" strokeWidth={1}/>,
   }
     return (
             <div className="mt-32">
@@ -53,9 +53,9 @@ function Solution() {
                         </div>
                         <Link
                           to={`/industries/${industry.toLowerCase().replace(/\s+/g, "-")}`}
-                          className="inline-flex items-center text-[#FF6B2C] font-medium text-sm mt-2"
+                          className="inline-flex items-center text-primary font-medium text-sm mt-2"
                         >
-                          Learn more <ArrowRight className="w-4 h-4 ml-1" />
+                          Learn more <ArrowRight className="w-4 h-4 ml-1 mt-1" />
                         </Link>
                       </div>
                     ))}

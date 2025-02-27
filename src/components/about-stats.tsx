@@ -65,10 +65,9 @@ function AboutStats() {
     { icon: <Lightbulb className="w-14 h-14 text-[#FF6B2C] mb-3" strokeWidth={1} />, value: animatedValues.interactions, label: "AI Interactions" },
     { icon: <Award className="w-14 h-14 text-[#FF6B2C] mb-3" strokeWidth={1} />, value: animatedValues.awards, label: "Industry Awards" }
   ];
-
   return (
     <div ref={sectionRef} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-      <div className="flex flex-wrap justify-center gap-24">
+      <div className="flex flex-wrap justify-center gap-0 sm:gap-24">
         {stats.map((stat, index) => (
           <motion.div 
             key={index} 
@@ -85,6 +84,7 @@ function AboutStats() {
       </div>
     </div>
   );
+  
 }
 
 export default AboutStats;

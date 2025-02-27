@@ -35,7 +35,7 @@ function PriceDetails() {
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
-          <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
+          <div className="hover:bg-gradient-to-bl from-[#FE701A]/10 to-transparent hover:shadow-2xl p-8 rounded-xl shadow-lg border border-gray-100">
             <h3 className="text-xl font-semibold mb-4">Starter</h3>
             <div className="mb-6">
               <span className="text-4xl font-bold">${isAnnual ? "79" : "99"}</span>
@@ -62,50 +62,50 @@ function PriceDetails() {
             </ul>
             <Link
               to="/contact"
-              className="block w-full text-center px-6 py-3 border border-[#0F766E] text-[#0F766E] rounded-md hover:bg-[#0F766E] hover:text-white transition-colors"
+              className="block w-full text-center px-6 py-3 border border-[#0F766E] text-[#0F766E] rounded-full hover:bg-[#0F766E] hover:text-white transition-colors"
             >
               Get Started
             </Link>
           </div>
 
-          <div className="bg-[#0F766E] p-8 rounded-xl shadow-lg transform scale-105">
-            <h3 className="text-xl font-semibold mb-4 text-white">Professional</h3>
+          <div className="bg-[#0F766E] p-8 rounded-xl shadow-lg transform scale-105 hover:shadow-2xl ">
+            <h3 className="text-xl font-semibold mb-4  text-[#FE701A]">Professional</h3>
             <div className="mb-6 text-white">
-              <span className="text-4xl font-bold">${isAnnual ? "239" : "299"}</span>
-              <span>/{isAnnual ? "month, billed annually" : "month"}</span>
+              <span className="text-4xl  text-[#FE701A] font-bold">${isAnnual ? "239" : "299"}</span>
+              <span className="  text-[#FE701A]">/{isAnnual ? "month, billed annually" : "month"}</span>
             </div>
             <p className="text-gray-100 mb-6">Ideal for growing companies</p>
             <ul className="space-y-4 mb-8 text-white">
               <li className="flex items-center">
-                <Check className="w-5 h-5 mr-2" />
+                <Check className="w-5 h-5 mr-2  text-[#FE701A]" />
                 <span>Advanced AI Chatbot</span>
               </li>
               <li className="flex items-center">
-                <Check className="w-5 h-5 mr-2" />
+                <Check className="w-5 h-5 mr-2  text-[#FE701A]" />
                 <span>25,000 Monthly Interactions</span>
               </li>
               <li className="flex items-center">
-                <Check className="w-5 h-5 mr-2" />
+                <Check className="w-5 h-5 mr-2  text-[#FE701A]" />
                 <span>Priority Support</span>
               </li>
               <li className="flex items-center">
-                <Check className="w-5 h-5 mr-2" />
+                <Check className="w-5 h-5 mr-2  text-[#FE701A]" />
                 <span>Advanced Analytics</span>
               </li>
               <li className="flex items-center">
-                <Check className="w-5 h-5 mr-2" />
+                <Check className="w-5 h-5 mr-2  text-[#FE701A]" />
                 <span>Custom Integration</span>
               </li>
             </ul>
             <Link
               to="/contact"
-              className="block w-full text-center px-6 py-3 bg-white text-[#0F766E] rounded-md hover:bg-gray-100 transition-colors"
+              className="block w-full text-center px-6 py-3  bg-[#FE701A]/90 text-white rounded-full hover:bg-[#FE701A] transition-colors"
             >
               Get Started
             </Link>
           </div>
 
-          <div className="bg-white p-8 rounded-xl shadow-lg border border-gray-100">
+          <div className="hover:bg-gradient-to-bl from-[#FE701A]/10 to-transparent hover:shadow-2xl  p-8 rounded-xl shadow-lg border border-gray-100">
             <h3 className="text-xl font-semibold mb-4">Enterprise</h3>
             <div className="mb-6">
               <span className="text-4xl font-bold">Custom</span>
@@ -135,7 +135,7 @@ function PriceDetails() {
             </ul>
             <Link
               to="/contact"
-              className="block w-full text-center px-6 py-3 border border-[#0F766E] text-[#0F766E] rounded-md hover:bg-[#0F766E] hover:text-white transition-colors"
+              className="block w-full text-center px-6 py-3 border border-[#0F766E] text-[#0F766E] rounded-full hover:bg-[#0F766E] hover:text-white transition-colors"
             >
               Contact Sales
             </Link>
