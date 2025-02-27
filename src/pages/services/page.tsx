@@ -445,7 +445,7 @@ const Services = () => {
           </div>
         </div>
 
-        {/* FAQ Section */}
+        {/* FAQ Section
         <div className="mt-32">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-6">Frequently Asked Questions</h2>
@@ -472,10 +472,10 @@ const Services = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         {/* CTA Section */}
-        <div className="mt-32 bg-gradient-to-r from-[#FF6B2C] to-[#FF8F5C] rounded-2xl p-12 text-center text-white">
+        {/* <div className="mt-32 bg-gradient-to-r from-[#FF6B2C] to-[#FF8F5C] rounded-2xl p-12 text-center text-white">
           <h2 className="text-3xl font-bold mb-6">Ready to Transform Your Business with AI?</h2>
           <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
             Schedule a consultation with our experts to discover how our AI solutions can address your specific business
@@ -495,7 +495,7 @@ const Services = () => {
               Contact Sales
             </Link>
           </div>
-        </div>
+        </div> */}
       </div>
       <Footer />
 

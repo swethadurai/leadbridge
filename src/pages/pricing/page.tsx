@@ -13,7 +13,7 @@ const Pricing = () => {
   const toggleFaq = (index: number) => {
     setOpenFaqIndex(openFaqIndex === index ? null : index)
   }
-
+ 
   const faqs = [
     {
       question: "How does the monthly interaction limit work?",
