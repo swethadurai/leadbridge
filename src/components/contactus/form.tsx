@@ -236,14 +236,14 @@ function Form() {
           variants={itemVariants}
           className="lg:w-1/2 w-full"
         >
-          <motion.img 
+          {/* <motion.img 
             src={foormimg} 
             alt="Charity volunteers helping community" 
             className="rounded-xl shadow-lg object-cover w-full h-[500px]"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
-          />
+          /> */}
           <motion.div 
             className="bg-white p-6 rounded-lg shadow-lg -mt-20 ml-10 mr-10 relative z-10 border border-gray-100"
             initial={{ opacity: 0, y: 20 }}
