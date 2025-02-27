@@ -17,11 +17,11 @@ const ProcessStep = ({ stepNumber, title, description, isLeft }: ProcessStepProp
       initial={{ opacity: 0, x: isLeft ? -20 : 20 }}
       whileInView={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.5 }}
-      className={`w-[45%] p-2 top-0  -mt-10 ${isLeft ? "text-right" : "text-left"}`}
+      className={`w-[45%] p-2 top-0 -mt-10 ${isLeft ? "text-right" : "text-left"}`}
     >
-      <span className="text-[#FE701A] text-sm font-semibold -mt-10 ">STEP {stepNumber}</span>
-      <h3 className="text-2xl font-bold text-teal-600 mb-2 ">{title}</h3>
-      <p className="text-gray-600 mb-7">{description}</p>
+      <span className="text-[#FE701A] text-xs md:text-sm font-semibold -mt-10">STEP {stepNumber}</span>
+      <h3 className="text-lg md:text-2xl font-bold text-teal-600 mb-2">{title}</h3>
+      <p className="text-xs md:text-base text-gray-600 mb-7">{description}</p>
     </motion.div>
 
     {/* Step Indicator */}
@@ -58,10 +58,10 @@ export const ProcessSection = () => {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h1 className="text-2xl md:text-5xl font-bold text-gray-900 mb-4">
             How It Works: Our Process
           </h1>
-          <p className="text-md text-gray-400 mt-10 mb-10">
+          <p className="text-sm md:text-md text-gray-400 mt-10 mb-10">
             A Proven Framework for Transforming Your Business with <br />
             Custom AI Agent Solutions.
           </p>
