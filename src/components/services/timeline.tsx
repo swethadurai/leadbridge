@@ -1,6 +1,4 @@
-import {
-  Check
-} from "lucide-react";
+import { Check } from "lucide-react";
 
 function Servicestimeline() {
   return (
@@ -20,8 +18,8 @@ function Servicestimeline() {
               <div className="hidden md:flex items-center justify-center absolute left-1/2 top-0 transform -translate-x-1/2 -translate-y-1/2 w-10 h-10 rounded-full border-4 border-[#0F766E] bg-[#FF6B2C] text-white font-bold">
                 {index + 1}
               </div>
-              <div className="grid md:grid-cols-2 gap-6 sm:gap-8 items-center text-center md:text-left">
-                <div className={`order-2 md:order-${index % 2 === 0 ? "1" : "2"}`}>
+              <div className="grid md:grid-cols-2 gap-6 sm:gap-8 items-center text-left">
+                <div className="order-1 md:order-1">
                   <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2 sm:mb-4">{title}</h3>
                   <p className="text-gray-600 text-base sm:text-lg">
                     {index === 0 && "We begin by understanding your business challenges, goals, and existing systems to identify the best AI solutions for your needs."}
@@ -30,7 +28,7 @@ function Servicestimeline() {
                     {index === 3 && "We ensure your team is fully equipped to use the new solution and continuously optimize performance."}
                   </p>
                 </div>
-                <div className="order-1 md:order-1 mt-6 md:mt-0">
+                <div className="order-3 md:order-1">
                   <div className="bg-gray-50 p-4 sm:p-6 rounded-lg">
                     <ul className="space-y-3 text-sm sm:text-base">
                       {[
@@ -39,7 +37,7 @@ function Servicestimeline() {
                         ["Agile development methodology", "Regular progress updates", "Thorough testing and quality assurance"],
                         ["Comprehensive user training", "Performance monitoring", "Continuous improvement"]
                       ][index].map((item, i) => (
-                        <li className="flex items-start justify-center md:justify-start" key={i}>
+                        <li className="flex items-start" key={i}>
                           <Check className="w-5 h-5 text-[#0F766E] mt-0.5 mr-2 flex-shrink-0" />
                           <span>{item}</span>
                         </li>
