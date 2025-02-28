@@ -64,7 +64,7 @@ export const BenefitsSection = () => {
           className="mb-16"
         >
           <h3 className="text-[#0D7377] font-semibold mb-4">OUR BENEFITS</h3>
-          <h2 className="text-2xl sm:text-4xl md:text-5xl font-normal text-gray-900 mb-6">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-normal text-gray-900 mb-6">
             Automate Roles, Not Just Tasks
           </h2>
           <p className="text-md sm:text-xl text-gray-600 max-w-3xl">
