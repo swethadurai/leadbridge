@@ -22,7 +22,7 @@ const BenefitCard = ({ icon, title, description }: BenefitCardProps) => (
     <div className="text-[#ff4d00] mb-6 mx-auto mt-8">
       {icon}
     </div>
-    <h3 className="text-xl sm:text-2xl  text-md font-semibold text-gray-500 sm:mb-4 mb-0 sm:pt-6 pt-1">{title}</h3>
+    <h3 className="text-md sm:text-xl  text-md font-semibold text-gray-500 sm:mb-4 mb-0 sm:pt-6 pt-1">{title}</h3>
     <p className="text-gray-500 sm:mb-6 mb-0 leading-relaxed pt-6 text-xs sm:text-lg">{description}</p>
     <div className="text-[#0D7377] pt-6 ">
       <ArrowRight className="w-5 h-5 m-auto" />
