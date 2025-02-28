@@ -45,7 +45,7 @@ function Blog() {
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="text-center mb-16">
-          <h1 className="text-5xl font-bold text-gray-800 mb-4">Blog</h1>
+          <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold text-gray-800 mb-4">Blog</h2>
           <p className="text-xl text-gray-600">
             Articles on AI trends, automation, and business efficiency.
           </p>

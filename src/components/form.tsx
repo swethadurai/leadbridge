@@ -23,7 +23,7 @@ function Form() {
   return (
     <div className=" bg-[#F4EEEA] flex items-center justify-center px-4 py-16">
       <div className="w-full max-w-2xl">
-        <h1 className="text-4xl font-medium text-gray-800 text-center mb-3">
+        <h1 className="text-2xl sm:text-4xl md:text-5xl font-medium text-gray-800 text-center mb-3">
           Let's get started
         </h1>
         <p className="text-gray-600 text-center mb-12">
