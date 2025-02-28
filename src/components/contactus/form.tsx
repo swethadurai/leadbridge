@@ -8,7 +8,7 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
 import foormimg from '@/components/images/coontactform.jpg'
-import heroimg from './images/Ai 1.png'
+import heroimg from '@/images/Ai 1.png'
 
 function Form() {
     const [formData, setFormData] = useState({
