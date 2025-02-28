@@ -5,12 +5,12 @@ export default function WhoWeAre() {
         {/* Left Section */}
         <div className="text-center sm:text-right sm:w-1/2">
           <h2 className="text-gray-500 uppercase text-sm font-medium mb-4">Who We Are</h2>
-          <h3 className="text-3xl sm:text-4xl md:text-5xl font-normal text-gray-800 mb-6">
+          <h3 className="text-2xl sm:text-4xl md:text-5xl font-normal text-gray-800 mb-6">
             Your Dedicated
             <br />
             AI Team - On Demand
           </h3>
-          <p className="text-gray-600 mb-12 sm:text-right xs:text-center mx-auto sm:mx-0">
+          <p className="text-gray-600 mb-12 sm:text-right xs:text-center mx-auto sm:mx-0 text-md sm:text-xl">
             We are a small team of AI developers. Our founder, Arsenii, is leading one of the most popular AI Agent
             Development Frameworks called Agency Swarm.
           </p>

@@ -22,8 +22,8 @@ const BenefitCard = ({ icon, title, description }: BenefitCardProps) => (
     <div className="text-[#ff4d00] mb-6 mx-auto mt-8">
       {icon}
     </div>
-    <h3 className="sm:text-xl text-md font-semibold text-gray-500 sm:mb-4 mb-0 sm:pt-6 pt-1">{title}</h3>
-    <p className="text-gray-500 sm:mb-6 mb-0 leading-relaxed pt-6 sm:text-md text-sm">{description}</p>
+    <h3 className="text-xl sm:text-2xl  text-md font-semibold text-gray-500 sm:mb-4 mb-0 sm:pt-6 pt-1">{title}</h3>
+    <p className="text-gray-500 sm:mb-6 mb-0 leading-relaxed pt-6 text-xs sm:text-lg">{description}</p>
     <div className="text-[#0D7377] pt-6 ">
       <ArrowRight className="w-5 h-5 m-auto" />
     </div>
@@ -63,11 +63,11 @@ export const BenefitsSection = () => {
           transition={{ duration: 0.5 }}
           className="mb-16"
         >
-          <h2 className="text-[#0D7377] font-semibold mb-4">OUR BENEFITS</h2>
-          <h1 className="text-4xl md:text-5xl font-normal text-gray-900 mb-6">
+          <h3 className="text-[#0D7377] font-semibold mb-4">OUR BENEFITS</h3>
+          <h2 className="text-2xl sm:text-4xl md:text-5xl font-normal text-gray-900 mb-6">
             Automate Roles, Not Just Tasks
-          </h1>
-          <p className="text-xl text-gray-600 max-w-3xl">
+          </h2>
+          <p className="text-md sm:text-xl text-gray-600 max-w-3xl">
             Why settle for simple automation when you can have AI agents that think, adapt, and improve over time?
           </p>
         </motion.div>

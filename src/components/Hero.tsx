@@ -16,17 +16,17 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6 }}
-            className="text-4xl sm:text-5xl md:text-6xl font-normal text-gray-900 tracking-tight mt-4"
+            className="text-3xl sm:text-5xl md:text-6xl font-normal text-gray-900 tracking-tight mt-4"
           >
             Scale Your Business With
-            <span className="block text-secondary mt-6 font-bold ">AI-Powered Agents</span>
+            <span className="block text-secondary sm:mt-6 mt-2 font-bold ">AI-Powered Agents</span>
           </motion.h1>
           
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="max-w-2xl mx-auto text-lg sm:text-xl text-gray-600"
+            className="max-w-2xl mx-auto text-md sm:text-xl text-gray-600"
           >
             Transform the way you work with AI-driven automation. Cut costs, boost efficiency, and deliver exceptional customer experiences—24/7.
           </motion.p>

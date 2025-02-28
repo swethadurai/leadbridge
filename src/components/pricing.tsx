@@ -86,10 +86,10 @@ export const PricingSection = () => {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          <h1 className="text-4xl md:text-5xl font-normal text-gray-900 mb-4 ">
+          <h1 className="text-2xl sm:text-4xl md:text-5xl font-normal text-gray-900 mb-4 ">
             Simple Month-to-Month Pricing
           </h1>
-          <p className="text-xl text-gray-500 mt-8">
+          <p className="text-md sm:text-xl text-gray-500 mt-8">
             No contracts. No hidden fees. Just results.
           </p>
         </motion.div>

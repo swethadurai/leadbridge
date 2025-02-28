@@ -58,7 +58,7 @@ export const ProcessSection = () => {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          <h1 className="text-2xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h1 className="text-2xl sm:text-4xl md:text-5xl text-gray-900 mb-4">
             How It Works: Our Process
           </h1>
           <p className="text-sm md:text-md text-gray-400 mt-10 mb-10">
