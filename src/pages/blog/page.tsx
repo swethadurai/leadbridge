@@ -1,7 +1,16 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useParams, Link } from 'react-router-dom';
 import { Calendar, Clock, User } from 'lucide-react';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/footer';
+import { blogPosts } from '@/data/bblogData';
 
 const Blog = () => {
+    const { id } = useParams<{ id: string }>();
+    const postId = parseInt(id || '1');
+    
+    const post = blogPosts.find(post => post.id === postId);
+    const relatedPosts = blogPosts.filter(p => p.id !== postId).slice(0, 2);
   const posts = [
     {
       title: "The Future of AI in Customer Service",
@@ -30,52 +39,61 @@ const Blog = () => {
   ];
 
   return (
-    <div className="bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        <div className="text-center mb-16">
-          <h1 className="text-4xl font-bold text-gray-900 mb-6">Latest Insights</h1>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Stay updated with the latest trends and insights in AI technology and business automation.
-          </p>
-        </div>
+    <div>
+      <Navbar/>
+       <div className="bg-white pt-20">
+    
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
+      <div className="text-center mb-16">
+        <h1 className="text-4xl font-bold text-gray-900 mb-6">Latest Insights</h1>
+        <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          Stay updated with the latest trends and insights in AI technology and business automation.
+        </p>
+      </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {posts.map((post, index) => (
-            <article key={index} className="bg-white rounded-xl shadow-lg overflow-hidden">
-              <img
-                src={post.image}
-                alt={post.title}
-                className="w-full h-48 object-cover"
-              />
-              <div className="p-6">
-                <h2 className="text-xl font-semibold mb-4">{post.title}</h2>
-                <p className="text-gray-600 mb-4">{post.excerpt}</p>
-                <div className="flex items-center text-sm text-gray-500 space-x-4">
-                  <div className="flex items-center">
-                    <Calendar className="w-4 h-4 mr-1" />
-                    <span>{post.date}</span>
-                  </div>
-                  <div className="flex items-center">
-                    <Clock className="w-4 h-4 mr-1" />
-                    <span>{post.readTime}</span>
-                  </div>
-                  <div className="flex items-center">
-                    <User className="w-4 h-4 mr-1" />
-                    <span>{post.author}</span>
-                  </div>
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {blogPosts.map((post) => (
+          <article key={post.id} className="bg-white rounded-xl shadow-lg overflow-hidden">
+             <Link to={`/blog/${post.id}`} className="block">
+            <img
+              src={post.image}
+              alt={post.title}
+              className="w-full h-48 object-cover"
+            />
+            <div className="p-6">
+              <h2 className="text-xl font-semibold mb-4">{post.title}</h2>
+              <p className="text-gray-600 mb-4">{post.description}</p>
+              <div className="flex items-center text-sm text-gray-500 space-x-4">
+                <div className="flex items-center">
+                  <Calendar className="w-4 h-4 mr-1" />
+                  <span>{post.date}</span>
+                </div>
+                {/* <div className="flex items-center">
+                  <Clock className="w-4 h-4 mr-1" />
+                  <span>{post.readTime}</span>
+                </div> */}
+                <div className="flex items-center">
+                  <User className="w-4 h-4 mr-1" />
+                  <span>{post.author}</span>
                 </div>
               </div>
-            </article>
-          ))}
-        </div>
+            </div>
+            </Link>
+          </article>
+        ))}
+      </div>
 
-        <div className="mt-12 text-center">
-          <button className="px-8 py-3 bg-[#0F766E] text-white rounded-md hover:bg-[#115E59] transition-colors">
-            Load More Articles
-          </button>
-        </div>
+      <div className="mt-12 text-center">
+        <button className="px-8 py-3 bg-[#0F766E] text-white rounded-md hover:bg-[#115E59] transition-colors">
+          Load More Articles
+        </button>
       </div>
     </div>
+    
+  </div>
+  <Footer/>
+    </div>
+   
   );
 };
 

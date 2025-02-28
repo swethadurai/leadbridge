@@ -8,6 +8,8 @@ import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Label } from "@/components/ui/label"
 import foormimg from '@/components/images/coontactform.jpg'
+import heroimg from './images/Ai 1.png'
+
 function Form() {
     const [formData, setFormData] = useState({
         name: "",
@@ -244,6 +246,11 @@ function Form() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.8 }}
           /> */}
+             <img 
+              src={heroimg}
+              alt="AI Agent Illustration"
+              className="max-w-3xl mx-auto w-full h-auto"
+            />
           <motion.div 
             className="bg-white p-6 rounded-lg shadow-lg -mt-20 ml-10 mr-10 relative z-10 border border-gray-100"
             initial={{ opacity: 0, y: 20 }}
