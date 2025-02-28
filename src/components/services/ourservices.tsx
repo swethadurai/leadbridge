@@ -67,7 +67,7 @@ function OurServices() {
               whileHover={{ scale: 1.05 }}
             >
               <motion.div
-                className="relative w-full h-full bg-white p-8 rounded-xl shadow-lg border border-gray-100 transition-all duration-300 group-hover:bg-gray-100"
+                className="relative w-full h-full bg-white p-8 rounded-xl shadow-lg border border-gray-100 transition-all duration-300 group-hover:bg-gradient-to-bl from-[#FE701A]/10 to-transparent"
                 initial={{ opacity: 0, y: 50 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: index * 0.1 }}

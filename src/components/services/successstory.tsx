@@ -73,7 +73,7 @@ function Servicesstory() {
                     <span className="font-semibold">Results:</span> {study.results}
                   </p>
                 </div>
-                <Link to="/case-studies" className="inline-flex items-center text-[#FF6B2C] font-medium">
+                <Link to="/case-studies" className="inline-flex items-center text-primary font-medium">
                   Read full case study <ArrowRight className="w-4 h-4 ml-1" />
                 </Link>
               </div>
