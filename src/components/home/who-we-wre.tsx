@@ -10,7 +10,7 @@ export default function WhoWeAre() {
             <br />
             AI Team - On Demand
           </h3>
-          <p className="text-gray-600 mb-12 sm:text-right xs:text-center mx-auto sm:mx-0  sm:text-md">
+          <p className="text-gray-600 mb-12 sm:text-right xs:text-center mx-auto sm:mx-0  sm:text-xl">
           AI is transforming businesses worldwide, automating millions of hours of work and boosting efficiency like never before. Our expert team specialises in building AI agents that streamline operations, enhance customer interactions, and drive real business results. Whether you’re a startup or an established enterprise, we help you harness the power of AI to stay ahead.
 
           </p>

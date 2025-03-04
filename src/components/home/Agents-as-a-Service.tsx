@@ -54,7 +54,7 @@ export const AgentServiceSection = () => {
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-normal mb-6 text-gray-900 pt-3 !leading-[ 1.2]">
             AI Agents Built for Your Business
             </h2>
-            <p className="text-gray-600 text-md sm:text-lg mb-8 leading-relaxed mt-8">
+            <p className="text-gray-600 text-md sm:text-xl mb-8 leading-relaxed mt-8">
             We create intelligent AI agents tailored to your needs—whether it’s handling customer enquiries, automating repetitive tasks, or improving workflow efficiency. Our solutions integrate seamlessly with your existing systems, boosting productivity and cutting operational costs.
             </p>
           </motion.div>
@@ -73,7 +73,7 @@ export const AgentServiceSection = () => {
                 <div className="flex-shrink-0 w-6 h-6   border-2 border-emerald-700  rounded-sm flex items-center justify-center">
                   <Check className="w-4 h-4 text-[#0D7377]" strokeWidth={3} />
                 </div>
-                <span className="text-gray-700 text-md sm:text-md ">{benefit}</span>
+                <span className="text-gray-700 text-md sm:text-xl ">{benefit}</span>
               </div>
             ))}
           </motion.div>

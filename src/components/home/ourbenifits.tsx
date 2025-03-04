@@ -69,7 +69,7 @@ export const BenefitsSection = () => {
           The Future of Work
 
           </h2>
-          <p className="text-md sm:text-lg text-gray-600 max-w-3xl">
+          <p className="text-md sm:text-xl text-gray-600 max-w-3xl">
           Why settle for basic automation when AI agents can think, learn, and enhance operations across industries?          </p>
         </motion.div>
 

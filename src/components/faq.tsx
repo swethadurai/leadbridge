@@ -59,7 +59,7 @@ function Faq() {
           <h2 className="text-xl sm:text-3xl font-medium text-gray-800 mb-4">
             Still have questions? Let's Talk!
           </h2>
-          <p className="text-gray-600 mb-8">
+          <p className="text-gray-600 mb-8 text-xl">
             Remember that if the visitor has not committed to the call to action, they may still have questions (doubts) that can be answered.
           </p>
           <button className="bg-[#0D7377] text-white px-8 py-3 rounded-full hover:bg-teal-700 transition-colors">
@@ -79,7 +79,7 @@ function Faq() {
                   className="w-full px-6 py-4 text-left flex justify-between items-center  bg-[#F4EEEA] "
                   onClick={() => toggleFaq(index)}
                 >
-                  <span className="font-medium text-gray-800 ">{faq.question}</span>
+                  <span className="font-medium text-gray-800 text-xl ">{faq.question}</span>
                   {openIndex === index ? (
                     <ChevronUp className="w-5 h-5 text-gray-500" />
                   ) : (
@@ -88,7 +88,7 @@ function Faq() {
                 </button>
                 
                 {openIndex === index && (
-                  <div className="px-6 pb-4 text-gray-600 pt-5">
+                  <div className="px-6 pb-4 text-gray-600 pt-5 text-lg">
                     {faq.answer}
                   </div>
                 )}

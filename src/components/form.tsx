@@ -26,7 +26,7 @@ function Form() {
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-medium text-gray-800 text-center mb-3">
           Let's get started
         </h1>
-        <p className="text-gray-600 text-center mb-12">
+        <p className="text-gray-600 text-center mb-12 text-xl mt-10">
           Want to talk? Fill out the form below, we're here to help.
         </p>
 
