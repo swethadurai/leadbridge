@@ -29,7 +29,7 @@ function Icons() {
     <div className="py-20 bg-[#F4EEEA] ">
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-2xl sm:text-4xl md:text-5xl font-normal text-gray-800 max-w-4xl mb-20" style={{lineHeight:"48px"}}>
-        AI agents empower businesses of all sizes,<br></br> and we’re here to drive this revolution in efficiency.
+        AI agents empower businesses of all sizes, and we’re here to drive this revolution in efficiency.
         </h2>
         
         {/* Desktop View */}

@@ -22,9 +22,11 @@ const Navbar = () => {
           
           <div className="hidden md:flex items-center space-x-10">
             <Link to="/" className="text-lg text-gray-800 hover:text-primary transition-colors">Home</Link>
-            <Link to="/about" className="text-lg text-gray-800 hover:text-primary transition-colors">About Us</Link>
-            <Link to="/pricing" className=" text-lg text-gray-800 hover:text-primary transition-colors">Pricing</Link>
-            <Link to="/services" className="text-lg text-gray-800 hover:text-primary transition-colors">Services</Link>
+            <Link to="/about" className="text-lg text-gray-800 hover:text-primary transition-colors">Why Us</Link>
+            <Link to="/services" className="text-lg text-gray-800 hover:text-primary transition-colors">AI Agents
+            </Link>
+            <Link to="/blog" className=" text-lg text-gray-800 hover:text-primary transition-colors">Blog</Link>
+
             <Link to="/contact" className="text-lg text-gray-800 hover:text-primary transition-colors">Contact Us</Link>
             <button className="bg-primary font-thin text-white px-16 py-3 rounded-full hover:bg-primary-hover transition-colors !ml-24">
               GET STARTED
