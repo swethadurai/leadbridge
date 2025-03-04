@@ -19,8 +19,8 @@ function Footer() {
                  <img src={logo} width="300px"/>
                 </span>
               </div>
-              <p className="text-gray-600 pr-4">
-                Transform the way you work with AI-driven automation. Cut costs, boost efficiency, and deliver exceptional customer experiences—24/7.
+              <p className="text-gray-600 pr-4 text-md sm:text-lg">
+              Revolutionise your workflow with AI-powered automation. Reduce costs, increase efficiency, and provide outstanding customer service—around the clock.
               </p>
             </div>
 
@@ -28,25 +28,25 @@ function Footer() {
             <div className="md:col-span-4">
               <nav className="grid grid-cols-2 gap-4">
                 <div>
-                  <a href="#" className="text-gray-600 hover:text-gray-900">Home</a>
+                  <a href="#" className="text-gray-600 hover:text-gray-900 text-md sm:text-lg">Home</a>
                 </div>
                 <div>
-                  <a href="#" className="text-gray-600 hover:text-gray-900">Case Studies</a>
+                  <a href="#" className="text-gray-600 hover:text-gray-900 text-md sm:text-lg">Case Studies</a>
                 </div>
                 <div>
-                  <a href="#" className="text-gray-600 hover:text-gray-900">Services</a>
+                  <a href="#" className="text-gray-600 hover:text-gray-900 text-md sm:text-lg">Services</a>
                 </div>
                 <div>
-                  <a href="#" className="text-gray-600 hover:text-gray-900">FAQs</a>
+                  <a href="#" className="text-gray-600 hover:text-gray-900 text-md sm:text-lg">FAQs</a>
                 </div>
                 <div>
-                  <a href="#" className="text-gray-600 hover:text-gray-900">Our works</a>
+                  <a href="#" className="text-gray-600 hover:text-gray-900 text-md sm:text-lg">Our works</a>
                 </div>
                 <div>
-                  <a href="#" className="text-gray-600 hover:text-gray-900">Contact us</a>
+                  <a href="#" className="text-gray-600 hover:text-gray-900 text-md sm:text-lg">Contact us</a>
                 </div>
                 <div>
-                  <a href="#" className="text-gray-600 hover:text-gray-900">Blog</a>
+                  <a href="#" className="text-gray-600 hover:text-gray-900 text-md sm:text-lg">Blog</a>
                 </div>
               </nav>
             </div>

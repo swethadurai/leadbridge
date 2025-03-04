@@ -16,11 +16,11 @@ function AboutStory() {
           transition={{ duration: 1, delay: 1 }}
         >
           <h2 className="text-[#0D7377] font-semibold mb-4">OUR STORY</h2>
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">About Us</h2>
-          <p className="text-gray-600 mb-6">
+          <h2 className="text-2xl sm:text-4xl md:text-5xl font-normal text-gray-900 mb-6">About Us</h2>
+          <p className="text-gray-600 mb-6 text-md sm:text-lg">
             Founded in 2023, LeadBridge emerged from a simple yet powerful idea: to make AI technology accessible and practical for businesses of all sizes. What started as a small team of innovators has grown into a global force in AI solutions.
           </p>
-          <p className="text-gray-600">
+          <p className="text-gray-600 text-md sm:text-lg">
             Today, we're proud to serve hundreds of companies worldwide, helping them automate processes, enhance customer service, and drive growth through our AI-powered solutions.
           </p>
           <motion.button

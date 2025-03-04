@@ -45,7 +45,7 @@ export const ProcessSection = () => {
     },
     {
       title: "Ongoing Support & Optimisation",
-      description: "We fine-tune and improve performance continuously.",
+      description: "We’re always here to help—no job is too complex, and we continuously fine-tune to maximise results.",
     },
   ];
 
@@ -61,9 +61,8 @@ export const ProcessSection = () => {
           <h1 className="text-3xl sm:text-4xl md:text-5xl text-gray-900 mb-4">
             How It Works: Our Process
           </h1>
-          <p className="text-sm md:text-md text-gray-400 mt-10 mb-10">
-            A Proven Framework for Transforming Your Business with <br />
-            Custom AI Agent Solutions.
+          <p className="text-md sm:text-lg text-gray-400 mt-10 mb-10">
+          A Proven Framework for Transforming Your Business with Custom AI Agent Solutions.
           </p>
         </motion.div>
 

@@ -1,30 +1,30 @@
 import { Check } from "lucide-react";
 import { motion } from "framer-motion";
-import  ai from './images/ai.png'
+import  ai from '@/components/images/ai.png'
 export const AgentServiceSection = () => {
   const benefits = [
-    "Advanced AI agent development using Agency Swarm framework",
-    "Seamless integration with your existing tech stack",
-    "Full support and maintenance included",
+    "24/7 Automation – AI agents handle enquiries and tasks round the clock, so your business never stops.",
+    "Seamless Integration – Works effortlessly with your current tools and systems, with no disruption.",
+    "Increased Efficiency – Automate repetitive work, reduce costs, and free up time for what truly matters.",
   ];
 
-  const stats = [
-    {
-      number: "25k",
-      label: "SUCCESSFUL DEPLOYMENTS",
-      description: "Powering businesses worldwide",
-    },
-    {
-      number: "100",
-      label: "ENTERPRISE CLIENTS",
-      description: "Trust our solutions",
-    },
-    {
-      number: "50k",
-      label: "HOURS SAVED",
-      description: "Through automation",
-    },
-  ];
+  // const stats = [
+  //   {
+  //     number: "25k",
+  //     label: "SUCCESSFUL DEPLOYMENTS",
+  //     description: "Powering businesses worldwide",
+  //   },
+  //   {
+  //     number: "100",
+  //     label: "ENTERPRISE CLIENTS",
+  //     description: "Trust our solutions",
+  //   },
+  //   {
+  //     number: "50k",
+  //     label: "HOURS SAVED",
+  //     description: "Through automation",
+  //   },
+  // ];
 
   return (
     
@@ -51,10 +51,12 @@ export const AgentServiceSection = () => {
             {/* <h2 className="text-lg font-semibold text-[#ff4d00] mb-4">
               AGENCY SWARM FRAMEWORK
             </h2> */}
-            <h2 className="text-3xl sm:text-4xl md:text-5xl font-normal mb-6 text-gray-900 pt-3">
-            Agents-as-a-Service            </h2>
-            <p className="text-gray-600 text-md sm:text-xl mb-8 leading-relaxed mt-8">
-            We specialise in developing AI-driven agents that automate tasks, enhance customer experiences, and optimise business operations. Our solutions leverage advanced machine learning, natural language processing, and intelligent automation to deliver real value. Whether you're a small business or a large enterprise, our AI solutions help you stay ahead in the competitive UK market.            </p>
+            <h2 className="text-3xl sm:text-4xl md:text-5xl font-normal mb-6 text-gray-900 pt-3 !leading-[ 1.2]">
+            AI Agents Built for Your Business
+            </h2>
+            <p className="text-gray-600 text-md sm:text-lg mb-8 leading-relaxed mt-8">
+            We create intelligent AI agents tailored to your needs—whether it’s handling customer enquiries, automating repetitive tasks, or improving workflow efficiency. Our solutions integrate seamlessly with your existing systems, boosting productivity and cutting operational costs.
+            </p>
           </motion.div>
 
           <motion.div
@@ -68,10 +70,10 @@ export const AgentServiceSection = () => {
                 key={index}
                 className="flex items-center space-x-4"
               >
-                <div className="flex-shrink-0 w-6 h-6   border border-emerald-700 flex items-center justify-center">
-                  <Check className="w-4 h-4 text-[#0D7377]" />
+                <div className="flex-shrink-0 w-6 h-6   border-2 border-emerald-700  rounded-sm flex items-center justify-center">
+                  <Check className="w-4 h-4 text-[#0D7377]" strokeWidth={3} />
                 </div>
-                <span className="text-gray-700 text-md sm:text-xl">{benefit}</span>
+                <span className="text-gray-700 text-md sm:text-md ">{benefit}</span>
               </div>
             ))}
           </motion.div>

@@ -1,9 +1,9 @@
 
 import { MessageSquare, Handshake, Building } from "lucide-react";
 import { motion } from "framer-motion";
-import img1 from './images/business.svg.png'
-import img2 from './images/ic-consulting.svg.png'
-import img3 from './images/ic-enterprise.svg.png'
+import img1 from '@/components/images/business.svg.png'
+import img2 from '@/components/images/ic-consulting.svg.png'
+import img3 from '@/components/images/ic-enterprise.svg.png'
 
 interface PricingFeature {
   text: string;
@@ -89,7 +89,7 @@ export const PricingSection = () => {
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-normal text-gray-900 mb-4 ">
             Simple Month-to-Month Pricing
           </h2>
-          <p className="text-md sm:text-xl text-gray-500 mt-8">
+          <p className="text-md sm:text-lg text-gray-500 mt-8">
             No contracts. No hidden fees. Just results.
           </p>
         </motion.div>

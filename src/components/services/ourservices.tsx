@@ -52,7 +52,7 @@ function OurServices() {
     <div>
       <div className="text-center mb-16">
         <h1 className="text-4xl font-bold text-gray-900 mb-6">Our Services</h1>
-        <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+        <p className="text-md sm:text-lg text-gray-600 max-w-2xl mx-auto">
           Comprehensive AI solutions designed to transform your business operations and drive growth.
         </p>
       </div>
@@ -73,7 +73,7 @@ function OurServices() {
                 transition={{ duration: 0.5, delay: index * 0.1 }}
               >
                 <Icon className="w-12 h-12 text-[#FF6B2C] mb-6" strokeWidth={1.5} />
-                <h3 className="text-xl font-semibold mb-4">{service.title}</h3>
+                <h3 className="text-xl sm:text-2xl font-semibold mb-4">{service.title}</h3>
                 <p className="text-gray-600 mb-4">{service.description}</p>
                 <ul className="text-gray-600 space-y-2">
                   {service.features.map((feature, i) => (

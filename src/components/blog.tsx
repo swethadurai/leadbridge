@@ -24,7 +24,7 @@ function Blog() {
         {/* Header Section */}
         <div className="text-center mb-16">
           <h2 className="text-3xl sm:text-4xl md:text-5xl text-gray-800 mb-4">Blog</h2>
-          <p className="text-xl text-gray-600">
+          <p className="text-md sm:text-lg text-gray-600">
             Articles on AI trends, automation, and business efficiency.
           </p>
         </div>

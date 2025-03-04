@@ -1,6 +1,6 @@
 
 import { motion } from 'framer-motion';
-import heroimg from './images/Ai 1.png'
+import heroimg from '@/components/images/Ai 1.png'
 const Hero = () => {
   return (
     <div className="min-h-screen pt-20 bg-gradient-to-br  relative overflow-hidden">
@@ -18,18 +18,18 @@ const Hero = () => {
             transition={{ duration: 0.6 }}
             className="text-3xl sm:text-5xl md:text-6xl font-normal text-gray-900 tracking-tight mt-4"
           >
-            Scale Your Business With
-            <span className="block text-secondary sm:mt-6 mt-2 font-bold ">AI-Powered Agents</span>
+            Automate, Scale, and Save Time with 
+            <span className="block text-secondary sm:mt-6 mt-2 font-bold ">with AI Agents</span>
           </motion.h1>
           
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="max-w-2xl mx-auto text-md sm:text-xl text-gray-600"
+            className="max-w-3xl mx-auto text-md sm:text-lg text-gray-600"
           >
-            Transform the way you work with AI-driven automation. Cut costs, boost efficiency, and deliver exceptional customer experiences—24/7.
-          </motion.p>
+AI-powered agents handle tasks, answer queries, and streamline your workflow—so you can focus on what matters. Reduce costs, boost efficiency, and provide seamless 24/7 support, all without extra overhead.
+</motion.p>
           
           <motion.div
             initial={{ opacity: 0, y: 20 }}

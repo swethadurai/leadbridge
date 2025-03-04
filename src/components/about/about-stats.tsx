@@ -78,7 +78,7 @@ function AboutStats() {
           >
             {stat.icon}
             <h3 className="text-3xl font-bold">{stat.value.toLocaleString()}+</h3>
-            <p className="text-gray-600">{stat.label}</p>
+            <p className="text-gray-600 text-md sm:text-lg">{stat.label}</p>
           </motion.div>
         ))}
       </div>

@@ -5,7 +5,7 @@ function Aboutvalue() {
   return (
     <div className="bg-gradient-to-br from-[#0F766E] to-[#134E4A] text-white py-20">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-4xl font-bold text-center mb-12">Our Core Values</h2>
+        <h2 className="text-2xl sm:text-4xl md:text-5xl text-center mb-12">Our Core Values</h2>
         <div className="relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 pl-4 md:pl-8 justify-center items-center">
           {["Innovation", "Reliability", "Customer Success"].map((value, index) => (
             <motion.div 

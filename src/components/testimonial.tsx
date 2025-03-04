@@ -61,7 +61,7 @@ function Testimonial() {
   return (
     <div className="py-20 bg-[#F4EEEA] flex items-center justify-center px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-2xl sm:text-4xl font-bold text-center text-gray-800">
+        <h2 className="text-2xl sm:text-4xl md:text-5xl  text-center text-gray-800">
           From our clients
         </h2>
 
@@ -83,7 +83,7 @@ function Testimonial() {
 
           {/* Testimonial Content */}
           <div className="text-center px-6 sm:px-8">
-            <p className="text-sm sm:text-xl text-gray-600 mb-6 sm:mb-8 min-h-[60px] sm:min-h-[80px]">
+            <p className="text-md sm:text-lg text-gray-600 mb-6 sm:mb-8 min-h-[60px] sm:min-h-[80px]">
               "{testimonials[currentIndex].content}"
             </p>
 

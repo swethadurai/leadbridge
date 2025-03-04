@@ -34,7 +34,7 @@ function Aboutmission() {
           <h1 className="text-4xl md:text-5xl font-normal text-gray-900 mb-6">
             Fresh Ideas for Business
           </h1>
-          <p className="text-xl text-gray-600 max-w-3xl">
+          <p className="text-md sm:text-lg text-gray-600">
             At Leadbridge, we understand that every business is unique, and we tailor our approach accordingly.
           </p>
         </motion.div>

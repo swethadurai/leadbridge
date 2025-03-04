@@ -10,9 +10,9 @@ export default function WhoWeAre() {
             <br />
             AI Team - On Demand
           </h3>
-          <p className="text-gray-600 mb-12 sm:text-right xs:text-center mx-auto sm:mx-0 text-md sm:text-xl">
-            We are a small team of AI developers. Our founder, Arsenii, is leading one of the most popular AI Agent
-            Development Frameworks called Agency Swarm.
+          <p className="text-gray-600 mb-12 sm:text-right xs:text-center mx-auto sm:mx-0  sm:text-md">
+          AI is transforming businesses worldwide, automating millions of hours of work and boosting efficiency like never before. Our expert team specialises in building AI agents that streamline operations, enhance customer interactions, and drive real business results. Whether you’re a startup or an established enterprise, we help you harness the power of AI to stay ahead.
+
           </p>
         </div>
 
@@ -28,7 +28,7 @@ export default function WhoWeAre() {
             </div>
             <div className="hidden md:block border-r border-dashed border-r-slate-300 h-28"></div>
             <div className="flex-1 text-center md:text-left">
-              <p className="text-gray-600">We saved thousands of employee hours.</p>
+              <p className="text-gray-600"> AI-powered automation saves businesses thousands of hours every year.</p>
             </div>
           </div>
 
@@ -42,7 +42,8 @@ export default function WhoWeAre() {
             </div>
             <div className="hidden md:block border-r border-dashed border-r-slate-300 h-28"></div>
             <div className="flex-1 text-center md:text-left">
-              <p className="text-gray-600">We work with businesses of all sizes.</p>
+              <p className="text-gray-600">Companies using AI report increased efficiency and reduced costs.
+              </p>
             </div>
           </div>
 
@@ -56,7 +57,7 @@ export default function WhoWeAre() {
             </div>
             <div className="hidden md:block border-r border-dashed border-r-slate-300 h-28"></div>
             <div className="flex-1 text-center md:text-left">
-              <p className="text-gray-600">We only use our own framework.</p>
+              <p className="text-gray-600">AI-driven customer support improves response times and satisfaction rates.</p>
             </div>
           </div>
         </div>

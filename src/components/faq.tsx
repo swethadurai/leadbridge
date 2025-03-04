@@ -36,7 +36,7 @@ function Faq() {
       <div className="max-w-6xl mx-auto flex flex-col lg:flex-row gap-12 lg:gap-24 justify-center items-center">
         {/* Left Column */}
         <div className="lg:w-1/3">
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-medium text-gray-800 mb-4">
+          <h2 className="text-xl sm:text-3xl font-medium text-gray-800 mb-4">
             Still have questions? Let's Talk!
           </h2>
           <p className="text-gray-600 mb-8">
