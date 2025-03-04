@@ -4,38 +4,38 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const testimonials = [
   {
     id: 1,
-    content: "Our experience with AI chatbot Service has been fantastic! The AI chatbot has improved our customer response time and automated repetitive tasks, saving us hours every week. Highly recommended!",
-    author: "James Richardson",
-    role: "Customer Experience Manager, TechNova Solutions",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&h=100&q=80",
+    content: "AI agents will become our digital assistants, helping us navigate the complexities of the modern world. They will make our lives easier and more efficient",
+    author: "Jeff Bezos",
+    role: "Amazon",
+    image: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Jeff_Bezos_visits_LAAFB_SMC_%283908618%29_%28cropped%29.jpeg/640px-Jeff_Bezos_visits_LAAFB_SMC_%283908618%29_%28cropped%29.jpeg",
   },
   {
     id: 2,
-    content: "The implementation was seamless and the results were immediate. Our team's productivity has increased significantly!",
-    author: "Sarah Chen",
-    role: "Operations Director, Digital Innovations",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&h=100&q=80",
+    content: "Agents are not only going to change how everyone interacts with computers. They’re also going to upend the software industry, bringing about the biggest revolution in computing since we went from typing commands to tapping on icons",
+    author: "Bill Gate",
+    role: "",
+    image: "https://www.gatesfoundation.org/-/media/gfo/3about/3people/bill-gates_headshot_5x4.png?rev=705d26ca3e3247b8b3776a9351416c71&w=1140&hash=2AF02C4872B616C8A217EE3E3D2F14A9",
   },
   {
     id: 3,
-    content: "Best decision we made for our customer service operations. The AI chatbot handles routine queries perfectly.",
-    author: "Michael Foster",
-    role: "CEO, TechStart Solutions",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&h=100&q=80",
+    content: "AI agents will become the primary way we interact with computers in the future. They will be able to understand our needs and preferences, and proactively help us with tasks and decision-making",
+    author: "Satya Nadella",
+    role: "Microsoft",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEt3FJSW7SXNZSjNe_pLL55atlSS3OqByiWr_ewAmq98bZfOgbP76gPr7HedgeaoMz_6kQPtJPqhY5x31arh6uT76M6rSS0e1al2SjLGM",
   },
   {
     id: 4,
-    content: "Exceptional service and support. The chatbot has become an integral part of our customer service strategy.",
-    author: "Emily Watson",
-    role: "Head of Support, CloudTech",
-    image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&h=100&q=80",
+    content: "he set of tasks AI can do will expand dramatically this year because of agentic workflows… We’ll need to learn to delegate tasks to AI agents and patiently wait for responses",
+    author: "Andrew Ng",
+    role: "Landing AI",
+    image: "https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTOOIquVIk-AUTan-9Rf0sG-Gl9P7ngVNdC2oLFUFc-4gkiB1wydkt2s36vjC8c7C8Xhtj6cxHNHEPR9xw",
   },
   {
     id: 5,
-    content: "The AI capabilities are impressive. It's like having an extra team member working 24/7.",
-    author: "David Martinez",
-    role: "Technical Director, InnovateLabs",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=100&h=100&q=80",
+    content: "An AGI built as a doctor will have exhaustive knowledge of medical literature, billions of hours of clinical experience, and always be available at a fraction of the cost",
+    author: "Ilya Sutskever",
+    role: "OpenAI",
+    image: "https://lh3.googleusercontent.com/proxy/-t1OZmUAWhoqOFNlSIQd41JNDNaz0kP6qSlya4QsoS56a9keY842mupvP9ZYEoA7F52PDTbRpRJQYLQZoCS4Ca7hlQXCkOEwsiPAv9VXeAo4E5Ar_5BbtDluRCH0wXmB20dM-dw",
   },
 ];
 
@@ -62,7 +62,7 @@ function Testimonial() {
     <div className="py-20 bg-[#F4EEEA] flex items-center justify-center px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-2xl sm:text-4xl md:text-5xl  text-center text-gray-800">
-          From our clients
+          Quotes
         </h2>
 
         <div className="relative mt-8">

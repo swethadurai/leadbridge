@@ -3,24 +3,44 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 
 const faqs = [
   {
+    question: "What are AI agents, and how do they work",
+    answer: "AI agents are intelligent systems that automate tasks, adapt to new challenges, and continuously improve through data-driven learning."
+  },
+  {
     question: "Will AI agents replace human employees?",
-    answer: "No! AI enhances your team's productivity by handling repetitive tasks so your staff can focus on high-value work."
+    answer: "AI agents enhance productivity by automating repetitive tasks, allowing employees to focus on strategic and creative work."
   },
   {
     question: "How long does it take to set up an AI agent?",
-    answer: "Setup is quick and straightforward, typically taking just a few hours. Our team guides you through the entire process."
+    answer: "Implementation time varies depending on complexity, but most AI agents can be set up and fine-tuned within weeks"
   },
   {
     question: "Is AI expensive?",
-    answer: "We offer flexible pricing plans to suit businesses of all sizes. The ROI is typically realized within the first few months."
+    answer: "AI agents provide a cost-effective solution, improving efficiency and reducing operational costs over time. "
   },
   {
-    question: "Is my data secure?",
-    answer: "Yes, we implement enterprise-grade security measures and comply with all relevant data protection regulations."
+    question: "Can AI agents integrate with my existing systems?",
+    answer: "Yes, our AI solutions are designed for seamless integration with your current tools and workflows."
+  },
+  {
+    question: "Is my data secure with AI agents?",
+    answer: "Absolutely. We prioritise data security with advanced encryption and compliance with industry standards."
+  },
+  {
+    question: "What industries benefit most from AI agents?",
+    answer: "AI agents are transforming industries like healthcare, retail, finance, and customer service by enhancing efficiency and decision-making."
   },
   {
     question: "Do you offer support after implementation?",
     answer: "Yes, we provide comprehensive post-implementation support and regular check-ins to ensure optimal performance."
+  },
+  {
+    question: "Can AI agents scale with my business?",
+    answer: "Yes, AI agents can be scaled as your business grows, adapting to new challenges and opportunities."
+  },
+  {
+    question: "How can I get started with AI agents?",
+    answer: "Simply reach out to us for a consultation, and we’ll assess your needs to design the best AI solution for your business."
   }
 ];
 
