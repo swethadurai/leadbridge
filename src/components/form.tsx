@@ -36,7 +36,7 @@ function Form() {
               htmlFor="name" 
               className="block text-lg text-gray-700 mb-2"
             >
-              What's your name?
+            Name
             </label>
             <input
               type="text"
@@ -54,7 +54,7 @@ function Form() {
               htmlFor="company" 
               className="block text-lg text-gray-700 mb-2"
             >
-              What's your company?
+              Company Name
             </label>
             <input
               type="text"
@@ -72,7 +72,7 @@ function Form() {
               htmlFor="email" 
               className="block text-lg text-gray-700 mb-2"
             >
-              Write your Email
+               Email 
             </label>
             <input
               type="email"
@@ -90,7 +90,7 @@ function Form() {
               htmlFor="phone" 
               className="block text-lg text-gray-700 mb-2"
             >
-              Write your Phone
+               Phone Number
             </label>
             <input
               type="tel"
