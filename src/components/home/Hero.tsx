@@ -26,7 +26,7 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="max-w-3xl mx-auto text-md sm:text-lg text-gray-600"
+            className="max-w-3xl mx-auto text-md sm:text-xl text-gray-600"
           >
 AI-powered agents handle tasks, answer queries, and streamline your workflow—so you can focus on what matters. Reduce costs, boost efficiency, and provide seamless 24/7 support, all without extra overhead.
 </motion.p>
