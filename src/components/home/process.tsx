@@ -32,29 +32,33 @@ const ProcessStep = ({ stepNumber, title, description, isLeft }: ProcessStepProp
 export const ProcessSection = () => {
   const steps = [
     {
-      title: "Strategic AI Consultation",
-      description: "Comprehensive assessment of business objectives, operational challenges, and data infrastructure to determine AI's optimal role.",
+      title: "Business Needs Assessment Business Needs Assessment",
+      description: "Understanding key challenges, workflows, and objectives to define the AI agent's role and functionalities."
     },
     {
-      title: "Data Acquisition & Processing",
-      description: "Collection, cleansing, and structuring of relevant data to build a solid foundation for AI model training.",
+      title: "Knowledge & Data Integration",
+      description: "Connecting the AI agent to relevant data sources, documents, APIs, and business systems for accurate responses and actions."
     },
     {
-      title: "Model Development & Training",
-      description: "Selection of the appropriate AI model, followed by iterative training using advanced machine learning techniques.",
+      title: "Agent Design & Development",
+      description: "Defining the agent's capabilities, conversation flow, and decision-making logic to ensure effective interaction and automation."
     },
     {
-      title: "Seamless System Integration",
-      description: "Deployment of AI solutions into existing business systems, ensuring smooth interoperability and minimal disruption.",
+      title: "Testing & Fine-Tuning",
+      description: "Running simulations and real-world tests to refine responses, accuracy, and overall performance. "
     },
     {
-      title: "Performance Monitoring & Optimization",
-      description: "Continuous tracking of AI performance metrics with adaptive tuning to maintain accuracy and efficiency.",
+      title: "Deployment & System Integration",
+      description: "Seamlessly embedding the AI agent into business tools like CRMs, websites, and communication platforms."
     },
     {
-      title: "Ongoing Support & Evolution",
-      description: "Regular updates, security enhancements, and AI retraining to keep up with evolving business needs and technological advancements.",
+      title: "Monitoring & Continuous Optimisation",
+      description: "Tracking usage, gathering feedback, and improving the AI agent's capabilities for better efficiency and user experience."
     },
+    {
+      title: "Ongoing Updates & Adaptation",
+      description: "Regular enhancements, security updates, and feature expansions to keep the AI agent aligned with evolving business needs."
+    }
   ];
 
   return (
