@@ -4,44 +4,32 @@ import { Link } from 'react-router-dom';
 
 const faqs = [
   {
-    question: "What are AI agents, and how do they work",
-    answer: "AI agents are intelligent systems that automate tasks, adapt to new challenges, and continuously improve through data-driven learning."
+    question: "Business Needs Assessment Business Needs Assessment",
+    answer: "Understanding key challenges, workflows, and objectives to define the AI agent's role and functionalities."
   },
   {
-    question: "Will AI agents replace human employees?",
-    answer: "AI agents enhance productivity by automating repetitive tasks, allowing employees to focus on strategic and creative work."
+    question: "Knowledge & Data Integration",
+    answer: "Connecting the AI agent to relevant data sources, documents, APIs, and business systems for accurate responses and actions."
   },
   {
-    question: "How long does it take to set up an AI agent?",
-    answer: "Implementation time varies depending on complexity, but most AI agents can be set up and fine-tuned within weeks"
+    question: "Agent Design & Development",
+    answer: "Defining the agent's capabilities, conversation flow, and decision-making logic to ensure effective interaction and automation."
   },
   {
-    question: "Is AI expensive?",
-    answer: "AI agents provide a cost-effective solution, improving efficiency and reducing operational costs over time. "
+    question: "Testing & Fine-Tuning",
+    answer: "Running simulations and real-world tests to refine responses, accuracy, and overall performance. "
   },
   {
-    question: "Can AI agents integrate with my existing systems?",
-    answer: "Yes, our AI solutions are designed for seamless integration with your current tools and workflows."
+    question: "Deployment & System Integration",
+    answer: "Seamlessly embedding the AI agent into business tools like CRMs, websites, and communication platforms."
   },
   {
-    question: "Is my data secure with AI agents?",
-    answer: "Absolutely. We prioritise data security with advanced encryption and compliance with industry standards."
+    question: "Monitoring & Continuous Optimisation",
+    answer: "Tracking usage, gathering feedback, and improving the AI agent's capabilities for better efficiency and user experience."
   },
   {
-    question: "What industries benefit most from AI agents?",
-    answer: "AI agents are transforming industries like healthcare, retail, finance, and customer service by enhancing efficiency and decision-making."
-  },
-  {
-    question: "Do you offer support after implementation?",
-    answer: "Yes, we provide comprehensive post-implementation support and regular check-ins to ensure optimal performance."
-  },
-  {
-    question: "Can AI agents scale with my business?",
-    answer: "Yes, AI agents can be scaled as your business grows, adapting to new challenges and opportunities."
-  },
-  {
-    question: "How can I get started with AI agents?",
-    answer: "Simply reach out to us for a consultation, and we’ll assess your needs to design the best AI solution for your business."
+    question: "Ongoing Updates & Adaptation",
+    answer: "Regular enhancements, security updates, and feature expansions to keep the AI agent aligned with evolving business needs."
   }
 ];
 
