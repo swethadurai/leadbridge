@@ -87,7 +87,7 @@ function Solution() {
 return (
   <div className="mt-32 px-4 sm:px-8">
     <div className="text-center mb-16">
-      <h2 className="text-2xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+      <h2 className="text-2xl sm:text-4xl md:text-5xl  text-gray-900 mb-6">
         What business challenge are you facing?
       </h2>
       <p className="text-xl text-gray-600 max-w-2xl mx-auto">
