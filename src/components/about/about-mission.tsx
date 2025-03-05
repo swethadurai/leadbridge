@@ -68,7 +68,7 @@ function Aboutmission() {
               <h3 className="text-2xl font-bold mb-5 ">{card.title}</h3>
               <ul className="text-gray-700 text-md space-y-4">
                 {card.descriptions.map((desc, idx) => (
-                  <li key={idx} className="text-left text-md sm:text-md list-disc list-inside"> {desc}</li>
+                  <li key={idx} className="text-left text-md sm:text-md list-disc list-outside ml-4 text-tertiary"> {desc}</li>
                 ))}
               </ul>
             </motion.div>
