@@ -63,9 +63,10 @@ function Faq() {
           <p className="text-gray-600 mb-8 text-xl">
             Remember that if the visitor has not committed to the call to action, they may still have questions (doubts) that can be answered.
           </p>
-          <Link to="/contact"></Link><button className="bg-[#0D7377] text-white px-8 py-3 rounded-full hover:bg-teal-700 transition-colors">
+          <Link to="/contact">
+          <button className="bg-[#0D7377] text-white px-8 py-3 rounded-full hover:bg-teal-700 transition-colors">
             Contact us
-          </button>
+          </button></Link>
         </div>
 
         {/* Right Column - FAQs */}
