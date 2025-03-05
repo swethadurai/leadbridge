@@ -17,7 +17,7 @@ function Info() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="mt-24"
+          className="mt-24 "
         >
           <h2 className="text-2xl font-semibold mb-10 text-center">Contact Information</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -29,7 +29,7 @@ function Info() {
                 <Mail className="w-6 h-6 text-[#FE701A]" strokeWidth={1.5}/>
               </div>
               <h3 className="font-medium text-gray-800 mb-2">Email</h3>
-              <p className="text-gray-600">contact@leadbridge.ai</p>
+              <p className="text-gray-600">hello@leadbridge.co.uk</p>
               <a href="mailto:contact@leadbridge.ai" className="text-[#FE701A] text-sm mt-2 inline-block hover:underline">
                 Send an email →
               </a>
@@ -49,7 +49,7 @@ function Info() {
               </a>
             </motion.div>
             
-            <motion.div 
+            {/* <motion.div 
               whileHover={{ y: -5 }}
               className="bg-white p-6 rounded-lg shadow-md border-t-4 border-[#FE701A] transition-all duration-300"
             >
@@ -76,7 +76,7 @@ function Info() {
                 Monday - Friday:<br />9:00 AM - 6:00 PM EST<br />
                 Saturday - Sunday: Closed
               </p>
-            </motion.div>
+            </motion.div> */}
           </div>
         </motion.div>
     )}

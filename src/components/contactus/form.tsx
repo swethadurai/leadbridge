@@ -186,10 +186,9 @@ function Form() {
                     required
                   >
                     <option value="">Select a subject</option>
-                    <option value="Donation">Donation</option>
-                    <option value="Volunteer">Volunteer</option>
-                    <option value="Partnership">Partnership</option>
-                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="AI Solutions Consultation">AI Solutions Consultation</option>
+                    <option value="General Enquiry">General Enquiry</option>
+                    <option value="Technical Support">Technical Support</option>
                   </select>
                 </motion.div>
               </div>
@@ -257,9 +256,15 @@ function Form() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.6 }}
           >
-            <h3 className="text-xl font-semibold text-[#0F766E] mb-2">Make a Difference Today</h3>
-            <p className="text-gray-600">Join our mission to create positive change in communities around the world. Your support matters.</p>
-            <div className="mt-4 flex space-x-2">
+            <h3 className="text-xl font-semibold text-[#0F766E] mb-2">Looking for Our Support Team?</h3>
+            <p className="text-gray-600">
+  For assistance, reach out to us at{" "}
+  <a href="mailto:support@leadbridge.co.uk" className="text-[#0F766E] font-semibold hover:underline">
+    support@leadbridge.co.uk
+  </a>{" "}
+  – we're here to help!
+</p>
+            {/* <div className="mt-4 flex space-x-2">
               <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-green-100 text-green-800">
                 Volunteer
               </span>
@@ -269,7 +274,7 @@ function Form() {
               <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-purple-100 text-purple-800">
                 Partner
               </span>
-            </div>
+            </div> */}
           </motion.div>
         </motion.div>
       </motion.div>
