@@ -285,5 +285,6 @@ export interface BlogPost {
       category: "Technology Trends",
       readTime: "12 min read",
       tags: ["AI", "Future Trends", "UK Business", "Technology", "Innovation"]
-    }
+    },
+    
   ];

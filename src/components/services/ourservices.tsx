@@ -51,7 +51,7 @@ function OurServices() {
   return (
     <div>
       <div className="text-center mb-16">
-        <h1 className="text-4xl font-bold text-gray-900 mb-6">Our Services</h1>
+        <h1 className="text-2xl sm:text-4xl md:text-5xl  text-gray-900 mb-6">Our Services</h1>
         <p className="text-md sm:text-lg text-gray-600 max-w-2xl mx-auto">
           Comprehensive AI solutions designed to transform your business operations and drive growth.
         </p>
