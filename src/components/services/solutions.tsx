@@ -21,15 +21,15 @@ import { Link } from "react-router-dom";
 
 function Solution() {
   const industryData = {
-    "Customer Service AI Agent": {
+    "Customer Service": {
         icon: <Smartphone className="w-8 h-8 text-[#FF6B2C]" strokeWidth={1.5} />,
         description: "Enhances customer interactions through automated responses and support."
     },
-    "Sales & Lead Qualification AI Agent": {
+    "Sales & Lead Qualificatio": {
         icon: <Landmark className="w-8 h-8 text-[#FF6B2C]" strokeWidth={1.5} />,
         description: "Identifies potential customers and qualifies leads efficiently."
     },
-    "Data Analytics AI Agent": {
+    "Data Analytics ": {
         icon: <Building className="w-8 h-8 text-[#FF6B2C]" strokeWidth={1.5} />,
         description: "Processes and analyzes data to uncover valuable business insights."
     },
@@ -37,7 +37,7 @@ function Solution() {
         icon: <Layers className="w-8 h-8 text-[#FF6B2C]" strokeWidth={1.5} />,
         description: "Automates appointment bookings and schedule management."
     },
-    "Finance & Accounting AI Agent": {
+    "Finance & Accounting": {
         icon: <Code className="w-8 h-8 text-[#FF6B2C]" strokeWidth={1.5} />,
         description: "Manages financial transactions, reports, and accounting tasks."
     },
@@ -49,11 +49,11 @@ function Solution() {
         icon: <Gavel className="w-8 h-8 text-[#FF6B2C]" strokeWidth={1.5} />,
         description: "Provides legal research and document automation services."
     },
-    "Education & E-Learning AI Agent": {
+    "Education & E-Learning": {
         icon: <BookOpen className="w-8 h-8 text-[#FF6B2C]" strokeWidth={1.5} />,
         description: "Assists in online learning, grading, and student engagement."
     },
-    "Marketing & Advertising AI": {
+    "Marketing & Advertising ": {
         icon: <Megaphone className="w-8 h-8 text-[#FF6B2C]" strokeWidth={1.5} />,
         description: "Optimizes marketing campaigns and customer targeting."
     },
@@ -61,7 +61,7 @@ function Solution() {
         icon: <ShoppingCart className="w-8 h-8 text-[#FF6B2C]" strokeWidth={1.5} />,
         description: "Enhances online shopping experiences with personalized recommendations."
     },
-    "Cybersecurity AI Agent": {
+    "Cybersecurity": {
         icon: <Shield className="w-8 h-8 text-[#FF6B2C]" strokeWidth={1.5} />,
         description: "Detects and prevents cyber threats in real-time."
     },
