@@ -52,8 +52,16 @@ function Footer() {
             </div>
 
             {/* Social Media Icons */}
-            <div className="md:col-span-4 flex justify-end gap-4">
-              <a href="#" className="text-gray-600 hover:text-gray-900">
+            <div className="md:col-span-4 flex flex-col  gap-4">
+            <h3 className="text-xl font-semibold text-[#0F766E] mb-2">Looking for Our Support Team?</h3>
+            <p className="text-gray-600">
+  For assistance, reach out to us at{" "}
+  <a href="mailto:support@leadbridge.co.uk" className="text-[#0F766E] font-semibold hover:underline">
+    support@leadbridge.co.uk
+  </a>{" "}
+  – we're here to help!
+</p>
+              {/* <a href="#" className="text-gray-600 hover:text-gray-900">
                 <Facebook className="w-6 h-6" />
               </a>
               <a href="#" className="text-gray-600 hover:text-gray-900">
@@ -67,7 +75,7 @@ function Footer() {
               </a>
               <a href="#" className="text-gray-600 hover:text-gray-900">
                 <Youtube className="w-6 h-6" />
-              </a>
+              </a> */}
             </div>
           </div>
 
