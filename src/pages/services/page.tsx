@@ -26,8 +26,9 @@ const Services = () => {
         <Servicestimeline />
         <Servicesstory />
         <Solution />
+        <Cta/>
         <Partners />
-   <Cta/>
+   
       </div>
       <Footer />
     </div>

@@ -203,7 +203,7 @@ function OurServices() {
     <div>
       <div className="text-center mb-16">
         <h3 className="text-[#0D7377] font-semibold mb-4">AI Agents</h3>
-        <h2 className="text-2xl sm:text-4xl md:text-5xl text-gray-900 mb-6">
+        <h2 className="text-2xl sm:text-4xl md:text-5xl text-gray-900 mb-6 sm:!leading-[4rem]">
           What They Are, How They Work, <br /> and Why Your Business Needs Them
         </h2>
         <p className="text-md sm:text-lg text-gray-600 max-w-2xl mx-auto">
@@ -232,9 +232,9 @@ function OurServices() {
                     >
                       <Icon className="w-12 h-12 text-[#FF6B2C] mb-6" strokeWidth={1} />
                       <h3 className="text-xl sm:text-2xl font-semibold mb-4">{service.title}</h3>
-                      <ul className="text-gray-600 space-y-2 mb-4">
+                      <ul className="text-gray-600 space-y-2 mb-4 list-disc list-outside ml-3">
                         {service.description.map((desc, i) => (
-                          <li key={i}>• {desc}</li>
+                          <li key={i}> {desc}</li>
                         ))}
                       </ul>
                       {/* <p className="mt-4 text-gray-500 italic">Example: {service.example}</p> */}
