@@ -23,7 +23,7 @@ const Navbar = () => {
           <div className="hidden md:flex items-center space-x-10">
             <Link to="/" className="text-lg text-gray-800 hover:text-primary transition-colors">Home</Link>
             <Link to="/whyus" className="text-lg text-gray-800 hover:text-primary transition-colors">Why Us</Link>
-            <Link to="/aiagents" className="text-lg text-gray-800 hover:text-primary transition-colors">AI Agents
+            <Link to="/ai-agents" className="text-lg text-gray-800 hover:text-primary transition-colors">AI Agents
             </Link>
             <Link to="/blog" className=" text-lg text-gray-800 hover:text-primary transition-colors">Blog</Link>
 

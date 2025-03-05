@@ -39,7 +39,7 @@ function Footer() {
                    <Link to="/whyus"className="text-gray-600 hover:text-gray-900 text-md sm:text-lg">Why Us</Link> 
                 </div>
                 <div>
-                   <Link to="/aiagents"className="text-gray-600 hover:text-gray-900 text-md sm:text-lg">AI Agents</Link> 
+                   <Link to="/ai-agents"className="text-gray-600 hover:text-gray-900 text-md sm:text-lg">AI Agents</Link> 
                 </div>
                 <div>
                    <Link to="/blog"className="text-gray-600 hover:text-gray-900 text-md sm:text-lg">Blog</Link> 
@@ -85,7 +85,7 @@ function Footer() {
               © 2025 Leadbridge.co.uk - Professional website for your Business. All Rights Reserved.
             </p>
             <div className="flex gap-6">
-              <a href="#" className="text-gray-600 hover:text-gray-900 text-sm underline">Privacy Policy</a>
+              <Link to="/privacy-policy"><a href="#" className="text-gray-600 hover:text-gray-900 text-sm underline">Privacy Policy</a></Link>
               {/* <a href="#" className="text-gray-600 hover:text-gray-900 text-sm">Terms of Service</a> */}
             </div>
           </div>

@@ -12,6 +12,7 @@ import Services from "./pages/services/page";
 import Contact from "./pages/contact/page";
 import BlogPost from "./components/blog-post";
 import ScrollToTop from "./components/scrolltotop";
+import Privacy from "./pages/Privacy-policy";
 const queryClient = new QueryClient();
 
 const App = () => (
@@ -26,9 +27,12 @@ const App = () => (
           <Route path="/" element={<Index />} />
           <Route path="/whyus" element={<About />} />
           <Route path="/pricing" element={<Pricing />} />
-          <Route path="/aiagents" element={<Services />} />
+          <Route path="/ai-agents" element={<Services />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/privacy-policy" element={<Privacy />} />
+
           <Route path="/blog/:id" element={<BlogPost />} />
 
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
