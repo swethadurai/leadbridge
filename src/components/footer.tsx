@@ -36,10 +36,10 @@ function Footer() {
                   <a href="#" className="text-gray-600 hover:text-gray-900 text-md sm:text-lg">Case Studies</a>
                 </div> */}
                 <div>
-                   <Link to="/about"className="text-gray-600 hover:text-gray-900 text-md sm:text-lg">Why Us</Link> 
+                   <Link to="/whyus"className="text-gray-600 hover:text-gray-900 text-md sm:text-lg">Why Us</Link> 
                 </div>
                 <div>
-                   <Link to="/services"className="text-gray-600 hover:text-gray-900 text-md sm:text-lg">AI Agents</Link> 
+                   <Link to="/aiagents"className="text-gray-600 hover:text-gray-900 text-md sm:text-lg">AI Agents</Link> 
                 </div>
                 <div>
                    <Link to="/blog"className="text-gray-600 hover:text-gray-900 text-md sm:text-lg">Blog</Link> 
