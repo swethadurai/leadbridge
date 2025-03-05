@@ -1,6 +1,8 @@
 import React from 'react';
 import { Facebook, Instagram, Twitter, Linkedin, Youtube } from 'lucide-react';
 import logo from './images/Logo.png'
+import { Link } from 'react-router-dom';
+
 function Footer() {
   return (
     <div className=" bg-[#FAF7F7]">
@@ -28,32 +30,30 @@ function Footer() {
             <div className="md:col-span-4">
               <nav className="grid grid-cols-2 gap-4">
                 <div>
-                  <a href="#" className="text-gray-600 hover:text-gray-900 text-md sm:text-lg">Home</a>
+                   <Link to="/"className="text-gray-600 hover:text-gray-900 text-md sm:text-lg">Home</Link> 
                 </div>
-                <div>
+                {/* <div>
                   <a href="#" className="text-gray-600 hover:text-gray-900 text-md sm:text-lg">Case Studies</a>
+                </div> */}
+                <div>
+                   <Link to="/about"className="text-gray-600 hover:text-gray-900 text-md sm:text-lg">Why Us</Link> 
                 </div>
                 <div>
-                  <a href="#" className="text-gray-600 hover:text-gray-900 text-md sm:text-lg">Services</a>
+                   <Link to="/services"className="text-gray-600 hover:text-gray-900 text-md sm:text-lg">AI Agents</Link> 
                 </div>
                 <div>
-                  <a href="#" className="text-gray-600 hover:text-gray-900 text-md sm:text-lg">FAQs</a>
+                   <Link to="/blog"className="text-gray-600 hover:text-gray-900 text-md sm:text-lg">Blog</Link> 
                 </div>
                 <div>
-                  <a href="#" className="text-gray-600 hover:text-gray-900 text-md sm:text-lg">Our works</a>
+                   <Link to="/contact"className="text-gray-600 hover:text-gray-900 text-md sm:text-lg">Contact Us</Link> 
                 </div>
-                <div>
-                  <a href="#" className="text-gray-600 hover:text-gray-900 text-md sm:text-lg">Contact us</a>
-                </div>
-                <div>
-                  <a href="#" className="text-gray-600 hover:text-gray-900 text-md sm:text-lg">Blog</a>
-                </div>
+               
               </nav>
             </div>
 
             {/* Social Media Icons */}
             <div className="md:col-span-4 flex flex-col  gap-4">
-            <h3 className="text-xl font-semibold text-[#0F766E] mb-2">Looking for Our Support Team?</h3>
+            <h3 className="text-xl font-semibold text-[#0F766E] mb-2">Looking for our Support Team?</h3>
             <p className="text-gray-600">
   For assistance, reach out to us at{" "}
   <a href="mailto:support@leadbridge.co.uk" className="text-[#0F766E] font-semibold hover:underline">

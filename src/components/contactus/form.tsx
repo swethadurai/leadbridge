@@ -256,7 +256,7 @@ function Form() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.4, duration: 0.6 }}
           >
-            <h3 className="text-xl font-semibold text-[#0F766E] mb-2">Looking for Our Support Team?</h3>
+            <h3 className="text-xl font-semibold text-[#0F766E] mb-2">Looking for our Support Team?</h3>
             <p className="text-gray-600">
   For assistance, reach out to us at{" "}
   <a href="mailto:support@leadbridge.co.uk" className="text-[#0F766E] font-semibold hover:underline">
