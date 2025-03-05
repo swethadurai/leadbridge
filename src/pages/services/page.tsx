@@ -27,7 +27,7 @@ const Services = () => {
         <Servicesstory />
         <Solution />
         <Cta/>
-        <Partners />
+        {/* <Partners /> */}
    
       </div>
       <Footer />
