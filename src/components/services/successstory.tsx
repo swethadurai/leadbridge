@@ -4,54 +4,38 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
+import img from '@/components/images/SERVICES.jpg';
 
 function Servicesstory() {
   const caseStudies = [
     {
-      title: "E-commerce Conversion Boost",
-      industry: "Retail",
-      challenge: "A leading online retailer was struggling with cart abandonment and customer support volume.",
-      solution: "Implemented an AI chatbot with product recommendations and instant support capabilities.",
-      results: "42% reduction in cart abandonment and 35% decrease in support tickets within 3 months.",
-      image: "/placeholder.svg?height=200&width=300",
-    },
-    {
-      title: "Financial Services Automation",
-      industry: "Banking",
-      challenge: "A regional bank needed to streamline customer onboarding and reduce processing times.",
-      solution: "Deployed process automation for document verification and customer information processing.",
-      results: "68% faster onboarding process and 52% reduction in manual processing errors.",
-      image: "/placeholder.svg?height=200&width=300",
-    },
-    {
-      title: "Healthcare Patient Experience",
-      industry: "Healthcare",
-      challenge: "A healthcare provider wanted to improve patient engagement and reduce administrative burden.",
-      solution: "Created a custom AI assistant for appointment scheduling, follow-ups, and basic medical queries.",
-      results: "91% patient satisfaction rate and 28% reduction in administrative staff workload.",
-      image: "/placeholder.svg?height=200&width=300",
+      title: "Break down key benefits with engaging visuals",
+      industry: "AI AGENTS",
+      descrip1: "AI agents don’t take breaks",
+      descrip2: "Automate tasks, reduce overhead",
+      descrip3: "Real-time data analysis.",
+      descrip4: "Personalised interactions.",
+      descrip5: "Easily adapt to business growth.",
+      image: img,
     },
   ];
 
   return (
     <div className="mt-32 px-4 sm:px-8">
       <div className="text-center mb-16">
-        <h2 className="text-3xl font-bold text-gray-900 mb-6">Success Stories</h2>
+        <h2 className="text-3xl font-bold text-gray-900 mb-6">Benefits</h2>
         <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-          See how our AI solutions have transformed businesses across industries.
+          Why Businesses Are Adopting AI Agents Faster Than Ever
         </p>
       </div>
 
-      {/* Slider for Mobile, Grid for Desktop */}
+      {/* Ensure Single Column Layout */}
       <Swiper
         spaceBetween={20}
-        slidesPerView={1}
-        breakpoints={{
-          768: { slidesPerView: 3, spaceBetween: 24 }, // 3 columns on desktop
-        }}
+        slidesPerView={1} // Ensures only one column across all screen sizes
         navigation={{ nextEl: ".next-btn", prevEl: ".prev-btn" }}
         modules={[Navigation]}
-        className="relative"
+        className="relative max-w-[600px] shadow-lg"
       >
         {caseStudies.map((study, index) => (
           <SwiperSlide key={index}>
@@ -63,18 +47,14 @@ function Servicesstory() {
                 </div>
                 <h3 className="text-xl font-bold mb-3">{study.title}</h3>
                 <div className="space-y-3 text-gray-600 mb-4">
-                  <p>
-                    <span className="font-semibold">Challenge:</span> {study.challenge}
-                  </p>
-                  <p>
-                    <span className="font-semibold">Solution:</span> {study.solution}
-                  </p>
-                  <p>
-                    <span className="font-semibold">Results:</span> {study.results}
-                  </p>
+                  <p><span className="font-semibold">24/7 Availability: </span> {study.descrip1}</p>
+                  <p><span className="font-semibold">Cost Reduction:</span> {study.descrip2}</p>
+                  <p><span className="font-semibold">Faster Decision-Making:</span> {study.descrip3}</p>
+                  <p><span className="font-semibold">Better Customer Experience:</span> {study.descrip4}</p>
+                  <p><span className="font-semibold">Scalability:</span> {study.descrip5}</p>
                 </div>
-                <Link to="/case-studies" className="inline-flex items-center text-primary font-medium">
-                  Read full case study <ArrowRight className="w-4 h-4 ml-1" />
+                <Link to="/contact" className="inline-flex items-center text-primary font-medium">
+                Find Your AI Agent <ArrowRight className="w-4 h-4 ml-1" />
                 </Link>
               </div>
             </div>
@@ -82,7 +62,7 @@ function Servicesstory() {
         ))}
       </Swiper>
 
-      {/* Custom Navigation Arrows Below the Cards */}
+      {/* Custom Navigation Arrows */}
       <div className="flex justify-center items-center gap-4 mt-6">
         <button className="prev-btn p-2 border rounded-full bg-gray-100 hover:bg-gray-200">
           <ChevronLeft className="w-6 h-6 text-black" />
@@ -93,14 +73,11 @@ function Servicesstory() {
       </div>
 
       {/* View All Button */}
-      <div className="text-center mt-10">
-        <Link
-          to="/case-studies"
-          className="inline-flex items-center px-6 py-3 border bg-primary rounded-full text-white hover:text-white transition-colors"
-        >
+      {/* <div className="text-center mt-10">
+        <Link to="/case-studies" className="inline-flex items-center px-6 py-3 border bg-primary rounded-full text-white hover:text-white transition-colors">
           View All Case Studies <ArrowRight className="w-4 h-4 ml-2" />
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 }

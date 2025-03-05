@@ -6,7 +6,7 @@ import Servicestimeline from "@/components/services/timeline";
 import Servicesstory from "@/components/services/successstory";
 import Solution from "@/components/services/solutions";
 import Partners from "@/components/services/partners";
-
+import Cta from "@/components/services/cta";
 const Services = () => {
   useEffect(() => {
     document.title = "AI-Powered Business Solutions | LeadBridge UK";
@@ -27,6 +27,7 @@ const Services = () => {
         <Servicesstory />
         <Solution />
         <Partners />
+   <Cta/>
       </div>
       <Footer />
     </div>

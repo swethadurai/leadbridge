@@ -3,7 +3,7 @@ import Footer from "@/components/footer"
 import Form from "@/components/contactus/form"
 import Info from "@/components/contactus/info"
 import Map from "@/components/contactus/map"
-import Cta from "@/components/contactus/cta"
+import Cta from "@/components/services/cta"
 import { useEffect } from "react";
 
 

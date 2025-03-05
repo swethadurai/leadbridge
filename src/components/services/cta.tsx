@@ -1,6 +1,7 @@
 import { motion } from "framer-motion"
-import { Button } from "@/components/ui/button"
+import { Link } from 'react-router-dom';
 
+import { Button } from "@/components/ui/button"
 function Cta() {
 
   const fadeInVariants = {
@@ -28,7 +29,7 @@ function Cta() {
           transition={{ delay: 0.2, duration: 0.6 }}
           className="text-3xl font-bold mb-4 relative z-10"
         >
-          Ready to Make a Difference?
+          Not Sure Which AI Agent You Need? Let’s Find Out
         </motion.h2>
         <motion.p 
           initial={{ opacity: 0 }}
@@ -36,7 +37,7 @@ function Cta() {
           transition={{ delay: 0.4, duration: 0.6 }}
           className="text-xl mb-6 max-w-2xl mx-auto relative z-10"
         >
-          Join our community of changemakers and help us create a better world for everyone.
+          Call for a free Consultation
         </motion.p>
         <motion.div
           initial={{ opacity: 0, scale: 0.9 }}
@@ -46,9 +47,10 @@ function Cta() {
           whileTap={{ scale: 0.95 }}
           className="relative z-10"
         >
+          <Link to="/contact">
           <Button variant="secondary" size="lg" className="bg-white text-[#0F766E] hover:bg-gray-100">
-            Become a Volunteer
-          </Button>
+            Contact Us
+          </Button></Link>
         </motion.div>
       </motion.div>
     )}
