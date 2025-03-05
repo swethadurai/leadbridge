@@ -32,20 +32,28 @@ const ProcessStep = ({ stepNumber, title, description, isLeft }: ProcessStepProp
 export const ProcessSection = () => {
   const steps = [
     {
-      title: "AI-Powered Consultation",
-      description: "We assess your needs and identify automation opportunities.",
+      title: "Strategic AI Consultation",
+      description: "Comprehensive assessment of business objectives, operational challenges, and data infrastructure to determine AI's optimal role.",
     },
     {
-      title: "Transparent Progress Tracking",
-      description: "See your AI agents evolve with real-time reports.",
+      title: "Data Acquisition & Processing",
+      description: "Collection, cleansing, and structuring of relevant data to build a solid foundation for AI model training.",
     },
     {
-      title: "Seamless Integration",
-      description: "AI solutions that fit perfectly with your existing systems.",
+      title: "Model Development & Training",
+      description: "Selection of the appropriate AI model, followed by iterative training using advanced machine learning techniques.",
     },
     {
-      title: "Ongoing Support & Optimisation",
-      description: "We’re always here to help—no job is too complex, and we continuously fine-tune to maximise results.",
+      title: "Seamless System Integration",
+      description: "Deployment of AI solutions into existing business systems, ensuring smooth interoperability and minimal disruption.",
+    },
+    {
+      title: "Performance Monitoring & Optimization",
+      description: "Continuous tracking of AI performance metrics with adaptive tuning to maintain accuracy and efficiency.",
+    },
+    {
+      title: "Ongoing Support & Evolution",
+      description: "Regular updates, security enhancements, and AI retraining to keep up with evolving business needs and technological advancements.",
     },
   ];
 

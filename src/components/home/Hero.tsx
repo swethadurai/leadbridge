@@ -1,4 +1,4 @@
-
+import { Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import heroimg from '@/components/images/Ai 1.png'
 const Hero = () => {
@@ -36,9 +36,9 @@ AI-powered agents handle tasks, answer queries, and streamline your workflow—s
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            <button className="bg-primary text-white px-8 py-4 rounded-full text-lg font-thin hover:bg-primary-hover transform hover:-translate-y-1 transition-all duration-200 shadow-lg hover:shadow-xl">
+            <Link to="/contact"><button className="bg-primary text-white px-8 py-4 rounded-full text-lg font-thin hover:bg-primary-hover transform hover:-translate-y-1 transition-all duration-200 shadow-lg hover:shadow-xl">
               BOOK A FREE CONSULTATION
-            </button>
+            </button></Link>
           </motion.div>
 
           <motion.div

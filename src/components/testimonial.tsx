@@ -59,7 +59,7 @@ function Testimonial() {
   };
 
   return (
-    <div className="py-20 bg-[#F4EEEA] flex items-center justify-center px-4 sm:px-6 lg:px-8">
+    <div className="py-20 bg-[#F4EEEA]/10 flex items-center justify-center px-4 sm:px-6 lg:px-8">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-2xl sm:text-4xl md:text-5xl  text-center text-gray-800">
           Quotes
