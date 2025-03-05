@@ -12,23 +12,34 @@ import Faq from '@/components/faq';
 import Form from '@/components/form';
 import Footer from '@/components/footer';
 import WhoWeAre from '@/components/home/who-we-wre';
+import { useEffect } from "react";
+
 const Index = () => {
+  useEffect(() => {
+    document.title = "Intelligent AI Solutions for Businesses | LeadBridge UK";
+    document
+      .querySelector('meta[name="description"]')
+      ?.setAttribute(
+        "content",
+        "LeadBridge UK delivers cutting-edge AI-driven automation, customer service, and data analytics solutions. Enhance efficiency, security, and business growth with our AI technology."
+      );
+  }, []);
+
   return (
     <div className="min-h-screen bg-white">
-     
       <Navbar />
       <Hero />
-      <AgentServiceSection/>
-      <WhoWeAre/>
-      <BenefitsSection/>
-    <ProcessSection/>
-    {/* <PricingSection/> */}
-    <Testimonial/>
-    <Blog/>
-    <Icons/>
-    <Faq/>
-    <Form/>
-    <Footer/>
+      <AgentServiceSection />
+      <WhoWeAre />
+      <BenefitsSection />
+      <ProcessSection />
+      {/* <PricingSection/> */}
+      <Testimonial />
+      <Blog />
+      <Icons />
+      <Faq />
+      <Form />
+      <Footer />
     </div>
   );
 };

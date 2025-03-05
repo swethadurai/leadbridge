@@ -5,7 +5,19 @@ import Navbar from '@/components/Navbar';
 import Footer from '@/components/footer';
 import { blogPosts } from '@/data/bblogData';
 
+
+  
+
 const Blog = () => {
+  useEffect(() => {
+    document.title = "Latest AI & Business Insights | LeadBridge UK Blog";
+    document
+      .querySelector('meta[name="description"]')
+      ?.setAttribute(
+        "content",
+        "Stay informed with expert insights on AI automation, business efficiency, and customer experience. Read the latest trends, case studies, and industry updates from LeadBridge UK."
+      );
+  }, []);
     const { id } = useParams<{ id: string }>();
     const postId = parseInt(id || '1');
     

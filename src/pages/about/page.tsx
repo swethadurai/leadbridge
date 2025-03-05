@@ -7,8 +7,20 @@ import Aboutmission from '@/components/about/about-mission';
 import AboutStory from '@/components/about/about-story';
 import AboutStats from '@/components/about/about-stats';
 import Aboutvalue from '@/components/about/about-core-values';
+import { useEffect } from "react";
+
+
+
 const About = () => {
- 
+  useEffect(() => {
+    document.title = "About LeadBridge UK | AI Solutions for Business Growth";
+    document
+      .querySelector('meta[name="description"]')
+      ?.setAttribute(
+        "content",
+        "Learn more about LeadBridge UK—helping businesses thrive with AI-driven automation, analytics, and process optimisation. Discover our mission, values, and expertise."
+      );
+  }, []);
   return (
     <div className="bg-white">
        <Navbar />
