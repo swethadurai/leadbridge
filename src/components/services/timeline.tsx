@@ -25,13 +25,13 @@ function Servicestimeline() {
               {/* Grid Layout - Alternates Left-Right */}
               <div className="grid md:grid-cols-2 gap-6 sm:gap-8 items-center text-left">
                 {/* Conditional Order to Alternate Layout */}
-                <div className={`${index % 2 === 0 ? "md:order-1 " : "md:order-2"}`}>
-                  <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2 sm:mb-4">{title}</h3>
-                  <p className="text-gray-600 text-base sm:text-lg">
-                  {index === 0 && < p className="flex items-center gap-3 "><Phone /> High customer service wait times</ p>}
-                    {index === 1 && < p className="flex items-center gap-3"><ChartLine/>Sales leads slipping through the cracks"</p>}
-                    {index === 2 && < p className="flex items-center gap-3"><ChartBarBig/>Manual data reporting slowing decisions </p>}
-                    {index === 3 && < p className="flex items-center gap-3"><Factory/>Complex workflows causing inefficiency</p>}
+                <div className="text-right">
+                  <h3 className="text-xl sm:text-2xl font-bold text-gray-900 mb-2 sm:mb-4 ">{title}</h3>
+                  <p className="text-gray-600  sm:text-lg text-right flex justify-end">
+                  {index === 0 && < p className="flex text-right gap-3 "><Phone /> High customer service wait times</ p>}
+                    {index === 1 && < p className="flex  gap-3"><ChartLine/>Sales leads slipping through the cracks"</p>}
+                    {index === 2 && < p className="flex  gap-3"><ChartBarBig/>Manual data reporting slowing decisions </p>}
+                    {index === 3 && < p className="flex  gap-3"><Factory/>Complex workflows causing inefficiency</p>}
                   </p>
                 </div>
 
