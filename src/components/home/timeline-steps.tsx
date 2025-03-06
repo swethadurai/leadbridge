@@ -32,7 +32,7 @@ const ProcessStep = ({ stepNumber, title, description, isLeft }: ProcessStepProp
 export const ProcessSection = () => {
   const steps = [
     {
-      title: "Business Needs Assessment Business Needs Assessment",
+      title: "Business Needs Assessment",
       description: "Understanding key challenges, workflows, and objectives to define the AI agent's role and functionalities."
     },
     {

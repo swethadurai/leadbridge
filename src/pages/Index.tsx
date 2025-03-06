@@ -1,9 +1,9 @@
 
 import Navbar from '../components/Navbar';
 import Hero from '../components/home/Hero';
-import AgentServiceSection from '../components/home/Agents-as-a-Service';
-import { BenefitsSection } from '@/components/home/ourbenifits';
-import { ProcessSection } from '@/components/home/process';
+import AgentServiceSection from '../components/home/image-with-text';
+import { BenefitsSection } from '@/components/home/future-of-work';
+import { ProcessSection } from '@/components/home/timeline-steps';
 import { PricingSection } from '@/components/home/pricing';
 import Testimonial from '@/components/testimonial';
 import Blog from '@/components/blog';

@@ -214,7 +214,7 @@ function OurServices() {
       <div className="space-y-12">
         {servicesList.map((category, categoryIndex) => (
           <div key={categoryIndex}>
-            <h2 className="text-3xl font-semibold text-[#0D7377] mb-10 mt-14 ">{category.title}</h2>
+            <h2 className="text-3xl font-semibold text-[#0D7377] mb-10 mt-14 text-center">{category.title}</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {category.data.map((service, index) => {
                 const Icon = service.icon;
